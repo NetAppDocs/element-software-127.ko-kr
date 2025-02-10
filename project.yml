@@ -1,0 +1,51 @@
+---
+settings:
+  name: Element Software
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  versions:
+  - version-number: '12.7'
+    url: "/element-software"
+  - version-number: '12.5'
+    url: "/element-software-125"
+  - version-number: '12.3'
+    url: "/element-software-123"
+  langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: SolidFire 및 Element 소프트웨어 문서 12.7
+    url: "/index.html"
+  - title: 릴리스 정보
+    url: "/concepts/concept_rn_relatedrn_element.html"
+    entries:
+    - title: 새로운 소식
+      url: "/concepts/concept_rn_whats_new_element.html"
+  - section: concepts
+  - title: 요구 사항
+    url: "/setup/concept_requirements_overview.html"
+    entries:
+    - title: 네트워킹 요구 사항
+      url: "/storage/concept_prereq_networking.html"
+    - title: Element 소프트웨어를 실행하는 클러스터의 스위치 구성
+      url: "/storage/concept_prereq_switch_configuration_for_solidfire_clusters.html"
+    - title: 네트워크 포트 요구 사항
+      url: "/storage/reference_prereq_network_port_requirements.html"
+  - section: try
+  - section: hardware
+  - section: setup
+  - section: storage
+  - section: hccstorage
+  - section: api
+  - title: vCenter Server용 Element 플러그인을 사용하여 스토리지를 관리합니다
+    url: "/element-plug-in-index.html"
+  - title: NetApp SolidFire Active IQ를 사용하여 스토리지를 모니터링합니다
+    url: "/monitor-storage-active-iq.html"
+  - section: mnode
+  - section: upgrade
+  - title: 이전 버전
+    url: "/element-earlierversions.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"

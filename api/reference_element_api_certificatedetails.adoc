@@ -1,0 +1,87 @@
+---
+permalink: api/reference_element_api_certificatedetails.html 
+sidebar: sidebar 
+keywords: security,certificate,SSL,get,getting,certificateDetails,object,objects 
+summary: certificateDetails 개체에는 보안 인증서에 대한 디코딩된 정보가 들어 있습니다. 
+---
+= 인증서 세부 정보
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ `certificateDetails`객체에는 보안 인증서에 대한 디코딩된 정보가 포함되어 있습니다.
+
+
+
+== 개체 멤버
+
+이 개체에는 다음 멤버가 포함되어 있습니다.
+
+|===
+| 이름 | 설명 | 유형 
+
+
+ a| 
+`issuer`
+ a| 
+발급자의 이름입니다.
+ a| 
+문자열
+
+
+
+ a| 
+`modulus`
+ a| 
+공개 키의 모듈러입니다.
+ a| 
+문자열
+
+
+
+ a| 
+`notAfter`
+ a| 
+인증서의 만료 날짜입니다.
+ a| 
+ISO 8601 문자열
+
+
+
+ a| 
+`notBefore`
+ a| 
+인증서의 시작 날짜입니다.
+ a| 
+ISO 8601 문자열
+
+
+
+ a| 
+`serial`
+ a| 
+인증서 일련 번호입니다.
+ a| 
+문자열
+
+
+
+ a| 
+`sha1Fingerprint`
+ a| 
+DER 인코딩된 인증서 버전의 다이제스트.
+ a| 
+문자열
+
+
+
+ a| 
+`subject`
+ a| 
+제목 이름입니다.
+ a| 
+문자열
+
+|===

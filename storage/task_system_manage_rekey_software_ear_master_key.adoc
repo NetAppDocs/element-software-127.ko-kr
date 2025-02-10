@@ -1,0 +1,98 @@
+---
+permalink: storage/task_system_manage_rekey_software_ear_master_key.html 
+sidebar: sidebar 
+keywords: element, rekey, encryption at rest, rekey master, replace key 
+summary: Element API를 사용하여 기존 키를 다시 입력할 수 있습니다. 이 프로세스는 외부 키 관리 서버에 대한 새 대체 마스터 키를 만듭니다. 
+---
+= 소프트웨어 암호화 유휴 마스터 키를 다시 입력하다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Element API를 사용하여 기존 키를 다시 입력할 수 있습니다. 이 프로세스는 외부 키 관리 서버에 대한 새 대체 마스터 키를 만듭니다. 마스터 키는 항상 새 마스터 키로 대체되며 복제 또는 덮어쓰기가 되지 않습니다.
+
+다음 절차 중 하나로 키를 다시 입력하다
+
+* 내부 키 관리에서 외부 키 관리로 변경 작업의 일부로 새 키를 만듭니다.
+* 보안 관련 이벤트에 대한 대응 또는 보호 기능으로 새 키를 생성합니다.
+
+
+
+NOTE: 이 프로세스는 비동기식이며 키를 다시 입력하다 메소드를 사용하여 시스템을 폴링하여 프로세스가 언제 완료되었는지 확인할 수 link:../api/reference_element_api_getasyncresult.html["GetAsyncResult 를 참조하십시오"]있습니다.
+
+.필요한 것
+* 볼륨을 포함하지 않고 I/O가 없는 새 클러스터에서 해당 방법을 사용하여 유휴 시 소프트웨어 암호화를 활성화했습니다link:../api/reference_element_api_createcluster.html["클러스터 생성"] 계속하기 전에 링크:../api/reference_element_api_getsoftwareencryptionatrestinfo.html 을 사용하여[`GetSoftwareEncryptionatRestInfo` 상태가 `enabled` 올바른지 확인하십시오.
+* link:../storage/task_system_manage_key_set_up_external_key_management.html["트러스트 관계를 설정했습니다"]SolidFire 클러스터와 EKS(외부 키 서버) 사이에 있습니다. link:../api/reference_element_api_testkeyserverkmip.html["TestKeyProviderKmip 을 참조하십시오"]메서드를 실행하여 키 공급자에 대한 연결이 설정되었는지 확인합니다.
+
+
+.단계
+. link:../api/reference_element_api_listkeyserverskmip.html["ListKeyProvidersKmip 을 참조하십시오"]명령을 실행하고 키 공급자 ID를 (`keyProviderID`복사합니다.)
+. 이전 단계에서 키 공급자의 ID 번호로 및 `keyProviderID` 로 매개 변수를 `external` 사용하여 `keyManagementType` 를 실행합니다link:../api/reference_element_api_rekeysoftwareencryptionatrestmasterkey.html["RekeySoftwareEncryptionAtRestMasterKey를 참조하십시오"].
++
+[listing]
+----
+{
+ "method": "rekeysoftwareencryptionatrestmasterkey",
+ "params": {
+   "keyManagementType": "external",
+   "keyProviderID": "<ID number>"
+ }
+}
+----
+.  `asyncHandle`명령 응답에서 값을 `RekeySoftwareEncryptionAtRestMasterKey` 복사합니다.
+. link:../api/reference_element_api_getasyncresult.html["GetAsyncResult 를 참조하십시오"]이전 단계의 값으로 명령을 `asyncHandle` 실행하여 구성 변경을 확인합니다. 명령 응답에서 이전 마스터 키 구성이 새 키 정보로 업데이트되었음을 확인할 수 있습니다. 나중에 사용할 수 있도록 새 키 공급자 ID를 복사합니다.
++
+[listing]
+----
+{
+   "id": null,
+   "result": {
+     "createTime": "2021-01-01T22:29:18Z",
+     "lastUpdateTime": "2021-01-01T22:45:51Z",
+     "result": {
+       "keyToDecommission": {
+         "keyID": "<value>",
+         "keyManagementType": "internal"
+     },
+     "newKey": {
+       "keyID": "<value>",
+       "keyManagementType": "external",
+       "keyProviderID": <value>
+     },
+     "operation": "Rekeying Master Key. Master Key management being transferred from Internal Key Management to External Key Management with keyProviderID=<value>",
+     "state": "Ready"
+   },
+   "resultType": "RekeySoftwareEncryptionAtRestMasterKey",
+   "status": "complete"
+}
+----
+.  `GetSoftwareEncryptionatRestInfo`명령을 실행하여 를 포함한 새로운 주요 정보가 업데이트되었는지 `keyProviderID`확인합니다.
++
+[listing]
+----
+{
+   "id": null,
+   "result": {
+     "masterKeyInfo": {
+       "keyCreatedTime": "2021-01-01T22:29:18Z",
+       "keyID": "<updated value>",
+       "keyManagementType": "external",
+       "keyProviderID": <value>
+     },
+     "rekeyMasterKeyAsyncResultID": <value>
+     "status": "enabled",
+     "version": 1
+   },
+}
+----
+
+
+[discrete]
+== 자세한 내용을 확인하십시오
+
+* link:../api/concept_element_api_about_the_api.html["Element API를 사용하여 스토리지를 관리합니다"]
+* https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html["이전 버전의 NetApp SolidFire 및 Element 제품에 대한 문서"^]
+
