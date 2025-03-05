@@ -5016,7 +5016,6 @@
   <block id="3c625a13e6a27d16b31373132f1450a8" category="paragraph">스케줄러가 다음에 활성화될 때 스케줄이 실행될지 여부를 나타냅니다. true이면 스케줄러가 다음에 활성화될 때 스케줄이 실행된 다음 이 값이 false로 다시 설정됩니다. 가능한 값:</block>
   <block id="714fceb471c374698251d925d8d05403" category="paragraph">스케줄의 고유 ID입니다.</block>
   <block id="3e31245b25836087aa43d5d4565230c2" category="paragraph">예약 정보</block>
-  <block id="29a9c6e40ddc0f47741633f0b0bd0699" category="paragraph">스케줄에 지정된 고유한 이름, 생성된 스냅샷의 보존 기간 및 스냅샷이 생성된 볼륨의 볼륨 ID가 포함됩니다.</block>
   <block id="b06b56d23b646ad4c7c629956c9fb6a3" category="paragraph">일정에 할당된 고유한 이름입니다.</block>
   <block id="01223b82a664dc5c4bb0d162a44002d1" category="paragraph">현재 스냅샷의 스케줄 유형만 지원됩니다.</block>
   <block id="0608ae69120a8f0e68c586e1bed7676b" category="paragraph">예약 정보에 포함된 생성된 스냅숏 또는 그룹 스냅숏에 적용할 스냅 대칭 레이블입니다. 설정되지 않은 경우 이 값은 null입니다.</block>
@@ -5816,7 +5815,6 @@
   <block id="24b56100da02e1fd4c8ccbb997e868ab" category="paragraph">burstIOPSCredit</block>
   <block id="596b858c2e5a9adba143102768b4dfd1" category="paragraph">사용자가 사용할 수 있는 총 IOP 크레딧 수입니다. 볼륨이 구성된 최대 maxIOPS를 사용하지 않으면 크레딧이 계산됩니다.</block>
   <block id="45518dd87d9c3c80ec617e9d8b06c31a" category="paragraph">볼륨에 대한 미해결 읽기 및 쓰기 작업 수입니다.</block>
-  <block id="53559c487d6329ff8a95081175ee8072" category="paragraph">사용 중인 클러스터 용량의 양입니다.</block>
   <block id="f6e65c6017cbd8accff3dedbaa7c9157" category="paragraph">DesiredMetadataHosts 를 선택합니다</block>
   <block id="27921d101d13cbcdde780f0bf7b74051" category="paragraph">볼륨 메타데이터가 메타데이터 서비스 간에 마이그레이션되는 경우 마이그레이션 중인 메타데이터(슬라이스) 서비스입니다. "null" 값은 볼륨이 마이그레이션되지 않음을 의미합니다.</block>
   <block id="5364fb1cb8e3fabb2c59f14551ca56b9" category="paragraph">마지막 500밀리초 내에 볼륨에 대한 작업을 완료하는 데 걸리는 평균 시간(마이크로초)입니다. "0"(0) 값은 볼륨에 대한 I/O가 없음을 의미합니다.</block>
@@ -12284,4 +12282,25 @@
   <block id="e9c9178d0dcc22e83ce4dafbccebece2" category="sidebar">사용자 지정 보호 도메인을 구성합니다</block>
   <block id="909a1c829d29d09da00949e5c8b87a0e" category="sidebar">NetApp SolidFire All-Flash 스토리지 시스템을 업그레이드하십시오</block>
   <block id="b837bae0f441ebacd86887d737939282" category="sidebar">시스템 업그레이드 절차</block>
+  <block id="d9a22d7a8178d5b42a8750123cbfe5b1" category="list-text">완료</block>
+  <block id="acbccd83186c34328efe61415e4f06c3" category="paragraph">iosInProgress(iosInProgress</block>
+  <block id="efadf566bdff7cd45611bcf2ea26634b" category="paragraph">진행 중인 이 드라이브의 I/O 수입니다.</block>
+  <block id="0fb9cf5f04f61bb6f1151da57ceb1ca1" category="paragraph">읽기</block>
+  <block id="2e63b183661efd0e03c30a8933592b67" category="paragraph">이 드라이브에 대한 초당 읽기() 호출 수입니다.</block>
+  <block id="0557cc41212e450b334e6cfd03e28356" category="paragraph">readsCombined(경고)</block>
+  <block id="2d65b6a0c4e91c801de77a9d9219d227" category="paragraph">더 큰 읽기로 결합될 수 있는 인접 섹터에 대한 읽기() 호출 수입니다.</block>
+  <block id="89892cc60750e3ae3839fe1bd6f0e295" category="paragraph">ReadMsec</block>
+  <block id="c30d492a58003b8cb74286227b4474f4" category="paragraph">읽는 데 소요된 시간(밀리초)입니다.</block>
+  <block id="4dcc865dcd8a0440f3e955e66928b6a9" category="paragraph">쓰기</block>
+  <block id="2723fa53100ce7b4222053e0cae1fe2a" category="paragraph">이 드라이브에 대한 초당 쓰기() 호출 수입니다.</block>
+  <block id="90355908c2c641db38cd1f8d115e8288" category="paragraph">쓰기\n구성</block>
+  <block id="dff2bd7a729604d5144c21832c60771e" category="paragraph">더 큰 쓰기로 결합될 수 있는 인접 섹터에 대한 쓰기() 호출 수입니다.</block>
+  <block id="48c52f79a065697f974edffe9baa1840" category="paragraph">쓰기 Msec</block>
+  <block id="a104ca42a35244c8eaac66b37a617289" category="paragraph">쓰는 데 소요된 시간(밀리초)입니다.</block>
+  <block id="cbe31e551cb8a7eda07f7c2fbae6f80b" category="list-text"><block ref="dcd44d342c90672f6b7613a3fda7d755" prefix="" category="inline-code"></block>: 이전 스냅샷 복제가 진행 중인 경우 새 스냅샷 생성을 허용할지 여부를 지정합니다. (부울)</block>
+  <block id="e9eb5370de2e3375a67adb6b46c54033" category="list-text"><block ref="6366ebc98be76ca376a9a50b148937ea" prefix="" category="inline-code"></block>: 스냅샷이 보존되는 시간입니다. 시간에 따라 다음 형식 중 하나로 표시됩니다.</block>
+  <block id="ec6874eecaec538abf3d408bf6b6b411" category="list-text"><block ref="cf54937a2330ac17aa523bf7130911a3" prefix="" category="inline-code"></block>: 스냅샷은 FIFO(First-in-first-out) 기준으로 보존됩니다. 비어 있으면 스냅샷이 영구적으로 유지됩니다. (문자열)</block>
+  <block id="bc0ffe4508f685d32386d4fcd929dd50" category="list-text">"HH:mm:ss"</block>
+  <block id="99eb6e1c13e9ae0bb02e022566f20121" category="paragraph">스케줄에 지정된 고유한 이름, 생성된 스냅샷의 보존 기간 및 스냅샷이 생성된 볼륨의 볼륨 ID가 포함됩니다. 유효한 값:</block>
+  <block id="65dc2083558f47cd1151751a12c24549" category="paragraph">동기화 작업 유형에 따라 부동 또는 정수</block>
 </blocks>
