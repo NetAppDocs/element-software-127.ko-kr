@@ -7989,7 +7989,6 @@
   <block id="6d8cd87a85946daeae42cb54aade3baa" category="section-title">단계 1: ISO 또는 OVA를 다운로드하고 VM을 배포합니다</block>
   <block id="90c4d8ddd76d9f5f86c144316cec5657" category="paragraph">NetApp 지원 사이트에서 적절한 ISO 또는 OVA를 다운로드하고 VM을 설치합니다.</block>
   <block id="12b8893b065179b6b80fdc2d448862df" category="inline-link-macro">Element 소프트웨어</block>
-  <block id="4aee9657f267c579c49541b5f19ca32c" category="list-text">NetApp 지원 사이트의 페이지에서 설치에 필요한 OVA 또는 ISO를 <block ref="00b11b6abe7f0003872aa657422c59ae" category="inline-link-macro-rx"></block>다운로드합니다. 새 OVA에는 업데이트된 SSL 인증서가 포함되어 있습니다.</block>
   <block id="7b4b2bec7b806d58982537647a92deef" category="list-text">최신 릴리스 다운로드 * 를 선택하고 EULA에 동의합니다.</block>
   <block id="9fd5f1f79bb7ead4a7bdb1a4e6b94825" category="list-text">다운로드할 관리 노드 이미지를 선택합니다.</block>
   <block id="b8ccf40afa6e3a195a8f4d93c8daa17d" category="list-text">OVA를 다운로드한 경우 다음 단계를 따르십시오.</block>
@@ -12303,4 +12302,5 @@
   <block id="bc0ffe4508f685d32386d4fcd929dd50" category="list-text">"HH:mm:ss"</block>
   <block id="99eb6e1c13e9ae0bb02e022566f20121" category="paragraph">스케줄에 지정된 고유한 이름, 생성된 스냅샷의 보존 기간 및 스냅샷이 생성된 볼륨의 볼륨 ID가 포함됩니다. 유효한 값:</block>
   <block id="65dc2083558f47cd1151751a12c24549" category="paragraph">동기화 작업 유형에 따라 부동 또는 정수</block>
+  <block id="e43f2538484fde027e53efbedb634fce" category="list-text">NetApp 지원 사이트의 페이지에서 설치에 필요한 OVA 또는 ISO를 <block ref="00b11b6abe7f0003872aa657422c59ae" category="inline-link-macro-rx"></block>다운로드합니다.</block>
 </blocks>
