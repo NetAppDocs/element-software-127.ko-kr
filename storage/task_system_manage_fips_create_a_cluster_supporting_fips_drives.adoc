@@ -15,8 +15,8 @@ summary: '많은 고객 환경에서 솔루션을 배포하는 데 있어 보안
 
 * link:task_system_manage_fips_avoid_mixing_nodes_for_fips_drives.html["FIPS 드라이브에 노드를 혼합하지 마십시오"]
 * link:task_system_manage_fips_enable_encryption_at_rest.html["유휴 데이터 암호화 사용"]
-* link:task_system_manage_fips_identify_nodes_ready_for_fips_drives["노드가 FIPS 드라이브 기능을 지원할 수 있는지 확인합니다"]
+* link:task_system_manage_fips_identify_nodes_ready_for_fips_drives.html["노드가 FIPS 드라이브 기능을 지원할 수 있는지 확인합니다"]
 * link:task_system_manage_fips_enable_the_fips_drives_feature.html["FIPS 드라이브 기능을 사용하도록 설정합니다"]
 * link:task_system_manage_fips_check_the_fips_drive_status.html["FIPS 드라이브 상태를 확인합니다"]
-* link:task_system_manage_fips_troubleshoot_the_fips_drive_feature["FIPS 드라이브 기능 문제를 해결합니다"]
+* link:task_system_manage_fips_troubleshoot_the_fips_drive_feature.html["FIPS 드라이브 기능 문제를 해결합니다"]
 

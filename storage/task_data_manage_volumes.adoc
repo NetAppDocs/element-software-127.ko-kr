@@ -287,7 +287,7 @@ IMPORTANT: 설치 또는 업그레이드 중에 관리 서비스와 연결된 �
 클러스터는 한 번에 볼륨당 최대 2개의 클론 요청을 실행하고 한 번에 최대 8개의 활성 볼륨 클론 작업을 지원합니다. 이러한 제한을 초과하는 요청은 나중에 처리할 수 있도록 대기열에 추가됩니다.
 
 
-NOTE: 운영 체제는 복제된 볼륨을 처리하는 방식에 따라 다릅니다. VMware ESXi는 복제된 볼륨을 볼륨 복사본 또는 스냅샷 볼륨으로 처리합니다. 볼륨은 새 데이터 저장소를 생성하는 데 사용할 수 있는 디바이스가 됩니다. 클론 볼륨 마운트 및 스냅샷 LUN 처리에 대한 자세한 내용은 및 https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.storage.doc/GUID-EBAB0D5A-3C77-4A9B-9884-3D4AD69E28DC.html["중복 VMFS 데이터 저장소 관리"] 의 VMware 설명서를 참조하십시오 https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.storage.doc/GUID-EEFEB765-A41F-4B6D-917C-BB9ABB80FC80.html["VMFS 데이터 저장소 복제본 마운트"].
+NOTE: 운영 체제마다 복제된 볼륨을 처리하는 방식이 다릅니다.  VMware ESXi는 복제된 볼륨을 볼륨 복사본 또는 스냅샷 볼륨으로 처리합니다.  이 볼륨은 새 데이터스토어를 생성하는 데 사용할 수 있는 장치가 됩니다.  복제 볼륨 마운트 및 스냅샷 LUN 처리에 대한 자세한 내용은 VMware 설명서를 참조하십시오. https://techdocs.broadcom.com/["VMFS 데이터 저장소 복제본 마운트"^] 및 https://techdocs.broadcom.com/["중복 VMFS 데이터 저장소 관리"^].
 
 
 IMPORTANT: 작은 크기로 복제하여 복제된 볼륨을 잘라내려면 먼저 작은 볼륨에 맞도록 파티션을 준비해야 합니다.
