@@ -15,6 +15,7 @@ QoSPolicy 객체에는 Element 소프트웨어를 실행하는 스토리지 클�
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -60,6 +61,7 @@ xref:reference_element_api_qos.adoc[QoS를 참조하십시오]
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_getqospolicy.adoc[GetQoSPolicy 를 참조하십시오]

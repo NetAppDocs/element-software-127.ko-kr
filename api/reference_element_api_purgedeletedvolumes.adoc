@@ -20,6 +20,7 @@ NOTE: 한 번에 많은 볼륨을 비우거나, 각 볼륨을 삭제하는 볼�
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -40,12 +41,14 @@ NOTE: 한 번에 많은 볼륨을 비우거나, 각 볼륨을 삭제하는 볼�
 
 
 
+[[return-values]]
 == 반환 값
 
 이 메서드에는 반환 값이 없습니다.
 
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -62,6 +65,7 @@ NOTE: 한 번에 많은 볼륨을 비우거나, 각 볼륨을 삭제하는 볼�
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -75,12 +79,14 @@ NOTE: 한 번에 많은 볼륨을 비우거나, 각 볼륨을 삭제하는 볼�
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_deletevolumes.adoc[DeleteVolumes 를 클릭합니다]

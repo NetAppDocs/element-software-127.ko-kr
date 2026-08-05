@@ -15,6 +15,7 @@ SNMP 네트워크 객체에는 클러스터 노드의 SNMP v3 구성에 대한 �
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -67,6 +68,7 @@ SNMP 커뮤니티 문자열입니다.
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_getsnmpinfo.adoc[GetSnmpInfo 를 참조하십시오]

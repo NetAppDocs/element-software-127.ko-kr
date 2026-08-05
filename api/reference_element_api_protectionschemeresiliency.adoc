@@ -15,6 +15,7 @@ protectionSchemeResiliency 개체에는 특정 보호 체계의 경우 스토리
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.

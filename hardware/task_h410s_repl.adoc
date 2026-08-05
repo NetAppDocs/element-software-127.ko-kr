@@ -39,6 +39,7 @@ image::hci_stor_node_ssd_bays.gif[에는 H410S 노드가 있는 4노드 섀시�
 
 
 
+[[prepare-to-replace-the-node]]
 == 노드 교체를 준비합니다
 
 교체 노드를 설치하기 전에 NetApp Element 소프트웨어 UI의 클러스터에서 결함이 있는 스토리지 노드를 올바르게 제거해야 합니다. 서비스 중단을 유발하지 않고 이 작업을 수행할 수 있습니다. Element UI에서 장애가 발생한 스토리지 노드의 일련 번호를 가져온 다음 노드 후면의 스티커에 있는 일련 번호와 일치해야 합니다.
@@ -81,6 +82,7 @@ image::hci_stor_node_ssd_bays.gif[에는 H410S 노드가 있는 4노드 섀시�
 
 
 
+[[replace-the-node-in-the-chassis]]
 == 섀시의 노드를 교체합니다
 
 NetApp Element 소프트웨어 UI를 사용하여 클러스터에서 장애가 발생한 노드를 제거하면 섀시에서 노드를 물리적으로 제거할 준비가 된 것입니다. 장애가 발생한 노드를 제거한 섀시의 동일한 슬롯에 교체 노드를 설치해야 합니다.
@@ -203,6 +205,7 @@ TIP: 교체 노드가 섀시의 다른 노드와 같은 방식으로 케이블�
 
 
 
+[[add-the-node-to-the-cluster]]
 == 클러스터에 노드를 추가합니다
 
 클러스터에 노드를 추가하거나 기존 노드에 새 드라이브를 설치하면 드라이브가 사용 가능한 것으로 자동으로 등록됩니다. Element UI 또는 API를 사용하여 클러스터에 드라이브를 추가해야 클러스터에 참여할 수 있습니다.
@@ -238,6 +241,7 @@ NOTE: 추가하려는 노드에 클러스터에서 실행 중인 버전과 다�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

@@ -15,6 +15,7 @@ snapMirrorRelationship 개체에는 Element 볼륨과 ONTAP 볼륨 간의 SnapMi
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.

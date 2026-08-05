@@ -28,6 +28,7 @@ image::../media/snapmirror_element_failback2.png[SnapMirror 요소 failback2]
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:task_snapmirror_perform_failback_when_source_volume_exists.adoc[소스 볼륨이 아직 있을 때 페일백을 수행합니다]

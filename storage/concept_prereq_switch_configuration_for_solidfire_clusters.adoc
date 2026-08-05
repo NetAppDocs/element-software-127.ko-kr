@@ -68,6 +68,7 @@ NetApp Element의 요구 사항은 다음과 같습니다.
 
 
 
+[[for-more-information]]
 == 를 참조하십시오
 
 * https://docs.netapp.com/us-en/hci/docs/hci_prereqs_network_switch.html["NetApp HCI 네트워크 및 스위치 요구 사항"^]

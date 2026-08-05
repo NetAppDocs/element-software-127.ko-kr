@@ -15,6 +15,7 @@ clusterCapacity 객체에는 클러스터에 대한 상위 레벨 용량 측정�
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -222,6 +223,7 @@ ZeroBlocks입니다
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_getclustercapacity.adoc[GetClusterCapacity 를 선택합니다]

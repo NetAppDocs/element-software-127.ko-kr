@@ -15,6 +15,7 @@ snapMirrorVolume 객체에는 ONTAP 볼륨에 대한 정보가 들어 있습니�
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.

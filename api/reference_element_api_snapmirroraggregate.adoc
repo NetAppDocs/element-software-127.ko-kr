@@ -15,6 +15,7 @@ snapMirrorAggregate 객체에는 사용 가능한 ONTAP 애그리게이트에 �
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.

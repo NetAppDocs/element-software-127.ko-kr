@@ -15,6 +15,7 @@ summary: 'DeleteKeyServerKmip 메서드를 사용하여 기존 키 관리 상호
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -37,12 +38,14 @@ KeyServerID를 입력합니다
 |===
 
 
+[[return-values]]
 == 반환 값
 
 이 메서드에는 반환 값이 없습니다. 오류가 없으면 삭제 작업이 성공한 것으로 간주됩니다.
 
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -59,6 +62,7 @@ KeyServerID를 입력합니다
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -73,6 +77,7 @@ KeyServerID를 입력합니다
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 11.7

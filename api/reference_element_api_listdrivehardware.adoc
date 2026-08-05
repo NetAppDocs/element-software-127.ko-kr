@@ -15,6 +15,7 @@ summary: ListDriveHardware 메서드를 사용하여 노드에 연결된 모든 
 
 
 
+[[parameters]]
 == 매개 변수
 
 
@@ -40,6 +41,7 @@ NOTE: "securitySupported": 메서드 응답의 실제 줄은 드라이브가 암
 |===
 
 
+[[return-value]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -58,6 +60,7 @@ JSON 개체 어레이
 |===
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -72,6 +75,7 @@ JSON 개체 어레이
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -119,12 +123,14 @@ JSON 개체 어레이
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_enableencryptionatrest.adoc[EnableEncryptionAtRest 를 참조하십시오]

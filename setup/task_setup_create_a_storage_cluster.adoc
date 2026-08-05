@@ -67,6 +67,7 @@ NOTE: 사용자 이름과 암호에 대문자와 소문자, 특수 문자 및 �
 
 
 
+[[for-more-information]]
 == 를 참조하십시오
 
 * link:../api/index.html["Element API를 사용하여 스토리지 관리"]

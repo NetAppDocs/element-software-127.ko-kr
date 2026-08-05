@@ -22,6 +22,7 @@ NetApp Element 소프트웨어 웹 사용자 인터페이스(Element UI)를 사�
 
 
 
+[[for-more-information]]
 == 를 참조하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

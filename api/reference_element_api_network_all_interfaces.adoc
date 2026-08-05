@@ -15,6 +15,7 @@ summary: 'network\(모든 인터페이스\) 객체는 스토리지 노드의 네
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -62,6 +63,7 @@ xref:reference_element_api_network_local_interfaces.adoc[네트워크(로컬 인
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_element_api_getconfig.adoc[getconfig를 참조하십시오]

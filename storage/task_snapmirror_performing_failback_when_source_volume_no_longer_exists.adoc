@@ -43,6 +43,7 @@ NOTE: 역방향 재동기화 작업은 원래 소스 볼륨과 대상 볼륨의 
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:concept_snapmirror_failback_scenarios.adoc[SnapMirror 페일백 시나리오]

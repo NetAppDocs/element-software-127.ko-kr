@@ -26,6 +26,7 @@ NOTE: 새 노드를 추가하고 드라이브를 사용 가능한 것으로 등�
 
 
 
+[[parameter]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -61,6 +62,7 @@ TRUE이면 추가 시 노드에서 RTFI(Return to factory image)가 수행됩니
 |===
 
 
+[[return-value]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -90,6 +92,7 @@ JSON 개체 어레이
 |===
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -107,6 +110,7 @@ JSON 개체 어레이
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -140,12 +144,14 @@ JSON 개체 어레이
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_element_api_adddrives.adoc[추가 드라이브]

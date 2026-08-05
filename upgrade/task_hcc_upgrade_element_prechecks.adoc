@@ -52,6 +52,7 @@ NetApp 하이브리드 클라우드 제어 UI 또는 NetApp 하이브리드 클�
 
 
 
+[[use-netapp-hybrid-cloud-control-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == 스토리지를 업그레이드하기 전에 NetApp 하이브리드 클라우드 제어를 사용하여 Element 스토리지 상태 점검을 실행하십시오
 
 NetApp 하이브리드 클라우드 제어를 사용하면 스토리지 클러스터를 업그레이드할 준비가 되었는지 확인할 수 있습니다.
@@ -81,6 +82,7 @@ https://<ManagementNodeIP>
 
 
 
+[[use-api-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == 스토리지를 업그레이드하기 전에 API를 사용하여 Element 스토리지 상태 점검을 실행하십시오
 
 REST API를 사용하여 스토리지 클러스터를 업그레이드할 준비가 되었는지 확인할 수 있습니다. 상태 점검은 보류 중인 노드, 디스크 공간 문제, 클러스터 장애 등과 같이 업그레이드에 따르는 장애물이 없는지 확인합니다.
@@ -212,6 +214,7 @@ https://<ManagementNodeIP>/storage/1/
 
 
 
+[[storage-health-checks-made-by-the-service]]
 == 서비스에서 수행한 스토리지 상태 점검입니다
 
 스토리지 상태 점검은 클러스터당 다음과 같은 점검을 수행합니다.

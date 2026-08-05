@@ -43,6 +43,7 @@ summary: 활성 볼륨의 스냅샷을 생성하여 언제든지 볼륨 이미�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:task_data_protection_schedule_a_snapshot_task.adoc[스냅샷을 예약합니다]

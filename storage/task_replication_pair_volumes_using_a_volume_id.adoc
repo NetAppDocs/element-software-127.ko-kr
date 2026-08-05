@@ -55,6 +55,7 @@ NOTE: 페어링 프로세스 후 복제 소스와 타겟을 할당할 수 있습
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_replication_volume_pairing_messages.adoc[볼륨 페어링 메시지]

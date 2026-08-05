@@ -15,6 +15,7 @@ clusterPair 객체에는 로컬 클러스터와 페어링된 클러스터에 대
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -102,6 +103,7 @@ UUID입니다
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_listclusterpairs.adoc[ListClusterPairs]

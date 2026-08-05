@@ -99,6 +99,7 @@ ID입니다
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_monitor_cluster_fault_codes.adoc[클러스터 고장 코드]

@@ -75,6 +75,7 @@ link:../api/index.html["Element API를 사용하여 스토리지를 관리합니
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:task_data_manage_vol_access_group_add_volumes.adoc[액세스 그룹에 볼륨을 추가합니다]

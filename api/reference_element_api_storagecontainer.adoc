@@ -15,6 +15,7 @@ storageContainer 개체에는 가상 볼륨 저장소 컨테이너의 특성이 
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -100,6 +101,7 @@ UUID 배열
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_liststoragecontainers.adoc[ListStorageContainers 를 선택합니다]

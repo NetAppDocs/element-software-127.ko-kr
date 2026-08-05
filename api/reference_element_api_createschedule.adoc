@@ -20,6 +20,7 @@ NOTE: 클러스터 충만도가 1단계, 2단계 또는 3단계에 있는 경우
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -242,6 +243,7 @@ JSON 개체 어레이
 |===
 
 
+[[return-values]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -271,6 +273,7 @@ xref:reference_element_api_schedule.adoc[스케줄]
 |===
 
 
+[[request-example-1]]
 == 요청 예 1
 
 다음 예제 스케줄에는 다음과 같은 매개 변수가 있습니다.
@@ -319,6 +322,7 @@ xref:reference_element_api_schedule.adoc[스케줄]
 ----
 
 
+[[response-example-1]]
 == 응답 예 1
 
 위의 요청은 다음 예와 유사한 응답을 반환합니다.
@@ -367,6 +371,7 @@ xref:reference_element_api_schedule.adoc[스케줄]
 ----
 
 
+[[request-example-2]]
 == 요청 예 2
 
 다음 예제 스케줄에는 다음과 같은 매개 변수가 있습니다.
@@ -409,6 +414,7 @@ xref:reference_element_api_schedule.adoc[스케줄]
 ----
 
 
+[[response-example-2]]
 == 응답 예 2
 
 위의 요청은 다음 예와 유사한 응답을 반환합니다.
@@ -452,6 +458,7 @@ xref:reference_element_api_schedule.adoc[스케줄]
 ----
 
 
+[[request-example-3]]
 == 요청 예 3
 
 다음 예제 스케줄에는 다음과 같은 매개 변수가 있습니다.
@@ -489,6 +496,7 @@ xref:reference_element_api_schedule.adoc[스케줄]
 ----
 
 
+[[response-example-3]]
 == 응답 예 3
 
 위의 요청은 다음 예와 유사한 응답을 반환합니다.
@@ -534,6 +542,7 @@ xref:reference_element_api_schedule.adoc[스케줄]
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6

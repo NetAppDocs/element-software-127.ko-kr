@@ -15,6 +15,7 @@ virtualVolume 개체에는 가상 볼륨에 대한 구성 정보와 가상 볼�
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -146,6 +147,7 @@ xref:reference_element_api_volume.adoc[볼륨]
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_element_api_listvirtualvolumes.adoc[목록 가상볼륨]

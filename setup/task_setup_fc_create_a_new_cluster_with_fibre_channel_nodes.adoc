@@ -46,6 +46,7 @@ NOTE: 사용자 이름에 대문자와 소문자, 특수 문자 및 숫자를 �
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

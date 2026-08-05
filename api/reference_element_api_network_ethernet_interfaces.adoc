@@ -15,6 +15,7 @@ summary: '네트워크 \(이더넷 인터페이스\) 개체에는 개별 이더�
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -100,6 +101,7 @@ MacAddressPermanent를 참조하십시오
 |===
 
 
+[[member-modifiability-and-node-states]]
 == 멤버 수정 가능성 및 노드 상태
 
 이 표는 가능한 각 노드 상태에서 개체 매개 변수를 수정할 수 있는지 여부를 나타냅니다.
@@ -188,6 +190,7 @@ MacAddressPermanent를 참조하십시오
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_element_api_getconfig.adoc[getconfig를 참조하십시오]

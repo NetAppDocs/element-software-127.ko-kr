@@ -35,6 +35,7 @@ NOTE: 이제 원래 운영 볼륨을 마운트하여 원래 운영 볼륨에서 
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:concept_snapmirror_failback_scenarios.adoc[SnapMirror 페일백 시나리오]

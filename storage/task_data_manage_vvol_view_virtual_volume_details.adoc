@@ -31,6 +31,7 @@ Element UI에서 클러스터의 모든 활성 가상 볼륨에 대한 가상 �
 
 
 
+[[details]]
 == 세부 정보
 
 VVol 탭의 Virtual Volumes 페이지에서는 볼륨 ID, 스냅샷 ID, 상위 가상 볼륨 ID 및 가상 볼륨 ID와 같은 클러스터의 각 활성 가상 볼륨에 대한 정보를 제공합니다.
@@ -55,6 +56,7 @@ VVol 탭의 Virtual Volumes 페이지에서는 볼륨 ID, 스냅샷 ID, 상위 �
 
 
 
+[[individual-virtual-volume-details]]
 == 개별 가상 볼륨 세부 정보입니다
 
 개별 가상 볼륨을 선택하고 세부 정보를 볼 때 VVol 탭의 Virtual Volumes 페이지는 다음과 같은 가상 볼륨 정보를 제공합니다.

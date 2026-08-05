@@ -15,6 +15,7 @@ clusterAdmin 객체에는 현재 클러스터 관리자 사용자에 대한 정�
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -74,6 +75,7 @@ JSON 개체입니다
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_getcurrentclusteradmin.adoc[GetCurrentClusterAdmin 을 참조하십시오]

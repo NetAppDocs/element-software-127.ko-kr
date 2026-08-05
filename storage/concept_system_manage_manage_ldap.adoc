@@ -31,6 +31,7 @@ LDAP 활성화에는 다음과 같은 고급 단계가 포함됩니다(자세한
 
 
 
+[[complete-pre-configuration-steps-for-ldap-support]]
 == LDAP 지원을 위한 사전 구성 단계를 완료합니다
 
 Element에서 LDAP 지원을 활성화하기 전에 Windows Active Directory Server를 설정하고 다른 사전 구성 작업을 수행해야 합니다.
@@ -44,6 +45,7 @@ Element에서 LDAP 지원을 활성화하기 전에 Windows Active Directory Ser
 
 
 
+[[enable-ldap-authentication-with-the-element-user-interface]]
 == Element 사용자 인터페이스를 사용하여 LDAP 인증을 설정합니다
 
 기존 LDAP 서버와의 스토리지 시스템 통합을 구성할 수 있습니다. 이를 통해 LDAP 관리자는 사용자에 대한 스토리지 시스템 액세스를 중앙에서 관리할 수 있습니다.
@@ -94,6 +96,7 @@ image::../media/element_new_cluster_admin.jpg[새로운 클러스터 관리자 �
 
 
 
+[[enable-ldap-authentication-with-the-element-api]]
 == Element API를 사용하여 LDAP 인증을 설정합니다
 
 기존 LDAP 서버와의 스토리지 시스템 통합을 구성할 수 있습니다. 이를 통해 LDAP 관리자는 사용자에 대한 스토리지 시스템 액세스를 중앙에서 관리할 수 있습니다.
@@ -199,6 +202,8 @@ searchBindPassword를 입력합니다
 
 
 
+[[view-ldap-details]]
+[[view_ldap_details]]
 == LDAP 세부 정보 보기
 
 클러스터 탭의 LDAP 페이지에서 LDAP 정보를 봅니다.
@@ -237,6 +242,7 @@ NOTE: 이러한 LDAP 구성 설정을 보려면 LDAP를 활성화해야 합니�
 
 
 
+[[test-the-ldap-configuration]]
 == LDAP 구성을 테스트합니다
 
 LDAP를 구성한 후에는 Element UI 또는 Element API 방법을 사용하여 테스트해야 `TestLdapAuthentication` 합니다.
@@ -331,6 +337,7 @@ LDAP 서버 URI가 잘못되었습니다.
 
 
 
+[[disable-ldap]]
 == LDAP를 비활성화합니다
 
 Element UI를 사용하여 LDAP 통합을 비활성화할 수 있습니다.
@@ -345,6 +352,7 @@ Element UI를 사용하여 LDAP 통합을 비활성화할 수 있습니다.
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

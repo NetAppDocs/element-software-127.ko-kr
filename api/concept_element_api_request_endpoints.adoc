@@ -17,6 +17,7 @@ API의 세 가지 요청 엔드포인트는 다음과 같은 방식으로 지정
 
 
 
+[[cluster-api-methods]]
 == 클러스터 API 메소드
 
 스토리지 클러스터 전체 API 요청을 위한 HTTPS 엔드포인트는 `+https://<mvip>/json-rpc/<api-version>+` 다음과 같습니다.
@@ -27,6 +28,7 @@ API의 세 가지 요청 엔드포인트는 다음과 같은 방식으로 지정
 
 
 
+[[cluster-creation-and-bootstrap-api-methods]]
 == 클러스터 생성 및 부트스트랩 API 메서드
 
 스토리지 클러스터를 생성하고 부트스트랩 API 요청에 액세스하기 위한 HTTPS 엔드포인트는 `+https://<nodeIP>/json-rpc/<api-version>+` 다음과 같습니다.
@@ -37,6 +39,7 @@ API의 세 가지 요청 엔드포인트는 다음과 같은 방식으로 지정
 
 
 
+[[per-node-api-methods]]
 == 노드별 API 메소드
 
 개별 스토리지 노드 API 요청에 대한 HTTPS 끝점은 `+https://<nodeIP>:442/json-rpc/<api-version>+` 다음과 같습니다.
@@ -47,6 +50,7 @@ API의 세 가지 요청 엔드포인트는 다음과 같은 방식으로 지정
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

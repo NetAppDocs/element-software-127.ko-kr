@@ -15,6 +15,7 @@ NetworkInterface 개체에는 스토리지 노드의 개별 네트워크 인터�
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.

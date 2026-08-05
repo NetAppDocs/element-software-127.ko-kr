@@ -66,6 +66,7 @@ IMPORTANT: 페어링 키의 문자를 수정하지 마십시오. 키를 수정�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_replication_volume_pairing_messages.adoc[볼륨 페어링 메시지]

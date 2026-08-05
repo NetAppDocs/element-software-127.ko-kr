@@ -100,6 +100,7 @@ Element 소프트웨어 API는 JSON 개체를 사용하여 조직화된 데이�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

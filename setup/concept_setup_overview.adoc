@@ -30,6 +30,7 @@ image::../media/sf_and_element_workflow_for_setup_shorter_workflow.png[워크플
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * link:../setup/concept_setup_whats_next.html["스토리지를 사용하기 위한 다음 단계를 알아보십시오"]

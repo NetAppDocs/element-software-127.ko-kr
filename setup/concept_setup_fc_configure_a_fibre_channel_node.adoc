@@ -31,6 +31,7 @@ WWPN은 노드로 새 클러스터를 생성할 때 시스템에 등록됩니다
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:task_setup_fc_add_fibre_channel_nodes_to_a_cluster.adoc[클러스터에 파이버 채널 노드를 추가합니다]

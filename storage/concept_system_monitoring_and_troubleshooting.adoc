@@ -29,6 +29,7 @@ summary: 진단 목적으로 시스템을 모니터링하고 다양한 시스템
 
 
 
+[[for-more-information]]
 == 를 참조하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

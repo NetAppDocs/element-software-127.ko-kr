@@ -76,6 +76,7 @@ NOTE: 위의 그림은 예입니다. SF9608은 왼쪽에서 오른쪽으로 1부
 
 
 
+[[remove-the-drive-from-the-cluster]]
 == 클러스터에서 드라이브를 제거합니다
 
 SolidFire 시스템은 드라이브의 자체 진단 유틸리티에서 장애가 발생했다고 진단하거나 드라이브와의 통신이 5분 30분 이상 중지되는 경우 드라이브를 오류 상태로 전환합니다. 장애가 발생한 드라이브 목록이 표시됩니다. NetApp Element 소프트웨어의 실패한 드라이브 목록에서 오류가 발생한 드라이브를 제거해야 합니다.
@@ -115,6 +116,7 @@ SolidFire 시스템은 드라이브의 자체 진단 유틸리티에서 장애�
 
 
 
+[[replace-the-drive-from-the-chassis]]
 == 섀시에서 드라이브를 교체합니다
 
 Element UI의 실패한 드라이브 목록에서 장애가 발생한 드라이브를 제거하면 섀시에서 장애가 발생한 드라이브를 물리적으로 교체할 준비가 된 것입니다.
@@ -158,6 +160,7 @@ NetApp Support에서 장애가 발생한 드라이브의 반품 지침을 제공
 
 
 
+[[add-the-drive-to-the-cluster]]
 == 클러스터에 드라이브를 추가합니다
 
 섀시에 새 드라이브를 설치하면 사용 가능한 것으로 등록됩니다. Element UI를 사용하여 클러스터에 드라이브를 추가해야 클러스터에 참여할 수 있습니다.
@@ -193,6 +196,7 @@ NetApp Support에서 장애가 발생한 드라이브의 반품 지침을 제공
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

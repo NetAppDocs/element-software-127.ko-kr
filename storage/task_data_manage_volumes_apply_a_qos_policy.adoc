@@ -25,6 +25,7 @@ summary: 하나 이상의 볼륨에 기존 QoS 정책을 일괄 적용할 수 �
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:concept_data_manage_volumes_quality_of_service_policies.adoc[서비스 품질 정책]

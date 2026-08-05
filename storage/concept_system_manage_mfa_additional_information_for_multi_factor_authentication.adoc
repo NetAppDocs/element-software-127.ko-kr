@@ -24,6 +24,7 @@ NOTE: 클러스터가 2048비트 사전 업그레이드 미만의 인증서를 �
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * link:../api/index.html["Element API를 사용하여 스토리지 관리"]

@@ -15,6 +15,7 @@ snapMirrorJobScheduleCronInfo 개체에는 ONTAP 시스템의 cron 작업 일정
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.

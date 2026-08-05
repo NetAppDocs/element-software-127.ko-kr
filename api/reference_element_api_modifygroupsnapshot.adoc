@@ -15,6 +15,7 @@ summary: 'ModifyGroupSnapshot 을 사용하여 스냅샷 그룹의 속성을 변
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -95,6 +96,7 @@ SnapMirror 소프트웨어에서 SnapMirror 엔드포인트에 대한 스냅샷 
 |===
 
 
+[[return-value]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -115,6 +117,7 @@ xref:reference_element_api_groupsnapshot.adoc[그룹 스냅샷]
 |===
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -133,6 +136,7 @@ xref:reference_element_api_groupsnapshot.adoc[그룹 스냅샷]
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -174,6 +178,7 @@ xref:reference_element_api_groupsnapshot.adoc[그룹 스냅샷]
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6

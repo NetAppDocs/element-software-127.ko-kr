@@ -15,6 +15,7 @@ clusterStructure 개체에는 GetClusterStructure 메서드에서 만든 클러�
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 메서드의 결합된 반환 정보가 들어 있습니다.
@@ -41,6 +42,7 @@ clusterStructure 개체에는 GetClusterStructure 메서드에서 만든 클러�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_element_api_getclusterstructure.adoc[GetClusterStructure 를 참조하십시오]

@@ -15,6 +15,7 @@ summary: GetClusterCapacity 를 사용하면 전체 스토리지 클러스터에
 
 
 
+[[efficiency-calculations]]
 == 효율성 계산
 
 다음 수식을 사용하여 씬 프로비저닝, 중복 제거 및 압축을 계산합니다. 이러한 수식은 Element 8.2 이상에 적용됩니다.
@@ -26,6 +27,7 @@ summary: GetClusterCapacity 를 사용하면 전체 스토리지 클러스터에
 
 
 
+[[overall-efficiency-rate-calculation]]
 == 전체 효율성 비율 계산
 
 다음 수식을 사용하여 씬 프로비저닝, 중복제거 및 압축 효율성 계산의 결과를 사용하여 전체 클러스터 효율성을 계산합니다.
@@ -35,12 +37,14 @@ summary: GetClusterCapacity 를 사용하면 전체 스토리지 클러스터에
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 입력 매개 변수가 없습니다.
 
 
 
+[[return-value]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -59,6 +63,7 @@ xref:reference_element_api_clustercapacity.adoc[클러스터 용량]
 |===
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -73,6 +78,7 @@ xref:reference_element_api_clustercapacity.adoc[클러스터 용량]
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -112,6 +118,7 @@ xref:reference_element_api_clustercapacity.adoc[클러스터 용량]
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6

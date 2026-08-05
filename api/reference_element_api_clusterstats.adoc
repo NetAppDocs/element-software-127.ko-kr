@@ -15,6 +15,7 @@ summary: 클러스터 통계 개체에는 클러스터에 대한 통계 데이�
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -288,6 +289,7 @@ WriteOpsLastSample 을 참조하십시오
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_getclusterstats.adoc[GetClusterStats 를 참조하십시오]

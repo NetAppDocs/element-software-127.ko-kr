@@ -48,6 +48,7 @@ WARNING: NetApp Support에서 통보하지 않는 한, 이 시스템에 대한 �
 
 
 
+[[troubleshoot-a-cluster-node]]
 == 클러스터 노드의 문제를 해결합니다
 
 sfreadonly 시스템 계정을 사용하여 기본 문제 해결을 수행할 수 있습니다.
@@ -116,6 +117,7 @@ NOTE: SSH를 해제하지 않으면 관리 노드에서 SSH가 활성화된 상�
 
 
 
+[[troubleshoot-a-cluster-node-with-netapp-support]]
 == NetApp Support를 통해 클러스터 노드 문제 해결
 
 NetApp Support에서는 기술자가 보다 심화된 요소 진단을 실행할 수 있는 시스템 계정으로 고급 문제 해결을 수행할 수 있습니다.
@@ -213,6 +215,7 @@ NOTE: SSH를 해제하지 않으면 관리 노드에서 SSH가 활성화된 상�
 
 
 
+[[troubleshoot-a-node-that-is-not-part-of-cluster]]
 == 클러스터에 속하지 않는 노드의 문제를 해결합니다
 
 아직 클러스터에 추가되지 않은 노드의 기본 문제 해결을 수행할 수 있습니다. NetApp Support의 도움을 받거나 지원을 받지 않고 이 용도로 sfreadonly 시스템 계정을 사용할 수 있습니다. 관리 노드를 설정한 경우 SSH에 사용하고 이 작업에 대해 제공된 스크립트를 실행할 수 있습니다.

@@ -17,6 +17,7 @@ API 메소드를 사용하여 동기화 정보를 조회할 수 `ListSyncJobs` �
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -212,6 +213,7 @@ TotalBytes를 나타냅니다
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_listsyncjobs.adoc[ListSyncJobs 를 선택합니다]

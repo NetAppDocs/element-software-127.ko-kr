@@ -15,6 +15,7 @@ Element 웹 UI는 메소드를 사용하여 `CreateSnapMirrorVolume` 원격 ONTA
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -109,6 +110,7 @@ SVM의 이름입니다.
 |===
 
 
+[[return-values]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -129,6 +131,7 @@ xref:reference_element_api_snapmirrorvolume.adoc[snapMirrorVolume(스냅 볼륨)
 |===
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 10.1

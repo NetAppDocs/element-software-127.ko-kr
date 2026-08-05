@@ -15,6 +15,7 @@ summary: 경우에 따라 사용자 개입이 필요한 오류가 발생할 수 
 
 
 
+[[the-cluster-is-unable-to-unlock-the-drives-due-to-a-kmipserverfault-cluster-fault]]
 == KmipServerFault 클러스터 오류로 인해 클러스터가 드라이브를 잠금 해제할 수 없습니다.
 
 이 문제는 클러스터를 처음 부팅하고 키 서버에 액세스할 수 없거나 필요한 키를 사용할 수 없을 때 발생할 수 있습니다.
@@ -24,6 +25,7 @@ summary: 경우에 따라 사용자 개입이 필요한 오류가 발생할 수 
 
 
 
+[[a-sliceserviceunhealthy-fault-might-be-set-because-the-metadata-drives-have-been-marked-as-failed-and-placed-into-the-available-state]]
 == 메타데이터 드라이브가 실패로 표시되고 "사용 가능" 상태로 배치되었기 때문에 슬라이싱ServiceUnsalisted 오류가 설정될 수 있습니다.
 
 지우기 단계:

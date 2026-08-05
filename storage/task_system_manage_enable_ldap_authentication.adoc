@@ -61,6 +61,7 @@ image::../media/element_new_cluster_admin.jpg[새로운 클러스터 관리자 �
 
 
 
+[[related-information]]
 == 관련 정보
 
 * link:concept_system_manage_manage_cluster_administrator_users.html#create_cluster_admin_account["클러스터 관리자 계정을 생성합니다"]

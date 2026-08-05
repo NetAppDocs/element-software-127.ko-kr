@@ -15,6 +15,7 @@ summary: GetDriveStats 메서드를 사용하면 단일 드라이브에 대한 �
 
 
 
+[[parameter]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -37,6 +38,7 @@ summary: GetDriveStats 메서드를 사용하면 단일 드라이브에 대한 �
 |===
 
 
+[[return-value]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -55,6 +57,7 @@ xref:reference_element_api_drivestats.adoc[드라이브 통계]
 |===
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -71,6 +74,7 @@ xref:reference_element_api_drivestats.adoc[드라이브 통계]
 ----
 
 
+[[response-example-block-drive]]
 == 응답 예(블록 드라이브)
 
 이 메서드는 블록 드라이브에 대한 다음 예제와 유사한 응답을 반환합니다.
@@ -103,6 +107,7 @@ xref:reference_element_api_drivestats.adoc[드라이브 통계]
 ----
 
 
+[[response-example-volume-metadata-drive]]
 == 응답 예(볼륨 메타데이터 드라이브)
 
 이 메서드는 볼륨 메타데이터 드라이브에 대한 다음 예제와 유사한 응답을 반환합니다.
@@ -136,12 +141,14 @@ xref:reference_element_api_drivestats.adoc[드라이브 통계]
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_listdrives.adoc[ListDrives를 선택합니다]

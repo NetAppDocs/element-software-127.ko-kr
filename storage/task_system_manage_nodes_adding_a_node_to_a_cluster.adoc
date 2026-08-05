@@ -47,6 +47,7 @@ SolidFire는 클러스터에 추가할 때 보류 중인 노드에 클러스터�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:concept_system_manage_nodes_node_versioning_and_compatibility.adoc[노드 버전 관리 및 호환성]

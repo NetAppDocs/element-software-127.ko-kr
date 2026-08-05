@@ -19,6 +19,7 @@ keepResult 매개 변수가 없거나 false 이면 결과가 반환될 때 async
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -54,6 +55,7 @@ true 인 경우 GetAsyncResult 는 반환 시 비동기 결과를 제거하지 �
 |===
 
 
+[[return-values]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -132,6 +134,7 @@ ISO 8601 날짜 문자열
 
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -148,6 +151,7 @@ ISO 8601 날짜 문자열
 ----
 
 
+[[response-example-method-error]]
 == 응답 예: 메서드 오류
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -167,6 +171,7 @@ ISO 8601 날짜 문자열
 
 
 
+[[response-example-asynchronous-task-error]]
 == 응답 예: 비동기 작업 오류
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -193,6 +198,7 @@ ISO 8601 날짜 문자열
 
 
 
+[[response-example-asynchronous-task-success]]
 == 응답 예: 비동기 작업 성공
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -218,6 +224,7 @@ ISO 8601 날짜 문자열
 
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6

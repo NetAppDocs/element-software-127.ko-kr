@@ -23,6 +23,7 @@ summary: 두 클러스터에 대한 클러스터 관리자 액세스 권한이 �
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:task_replication_pair_cluster_using_mvip.adoc[MVIP를 사용하여 클러스터를 페어링합니다]

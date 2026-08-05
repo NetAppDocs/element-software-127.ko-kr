@@ -29,6 +29,7 @@ summary: 볼륨을 페어링하기 전에 두 해당 클러스터 간에 클러�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_element_api_startvolumepairing.adoc[StartVolumePairing]

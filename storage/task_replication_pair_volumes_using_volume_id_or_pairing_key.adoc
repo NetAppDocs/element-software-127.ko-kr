@@ -27,6 +27,7 @@ NOTE: 볼륨 페어링 키는 볼륨 정보의 암호화된 버전을 포함하�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:task_replication_pair_volumes_using_a_volume_id.adoc[볼륨 ID를 사용하여 볼륨을 페어링합니다]

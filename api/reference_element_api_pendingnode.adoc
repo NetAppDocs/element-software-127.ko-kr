@@ -15,6 +15,7 @@ summary: 펜딩노드 개체에는 클러스터에 추가할 수 있는 노드�
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -153,6 +154,7 @@ SIP
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_element_api_addnodes.adoc[추가 노드]

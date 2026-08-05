@@ -17,6 +17,7 @@ OpenStack Swift 또는 Amazon S3에서 볼륨을 복원할 때 원래 백업 프
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:task_data_protection_back_up_volume_to_amazon_s3.adoc[Amazon S3 오브젝트 저장소에 볼륨을 백업합니다]

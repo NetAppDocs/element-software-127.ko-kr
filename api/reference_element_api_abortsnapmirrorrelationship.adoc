@@ -15,6 +15,7 @@ Element 소프트웨어 웹 UI에서는 메소드를 사용하여 `AbortSnapMirr
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -67,6 +68,7 @@ clearCheckpoint 를 선택합니다
 |===
 
 
+[[return-values]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -85,6 +87,7 @@ xref:reference_element_api_snapmirrorrelationship.adoc[snapMirrorRelationship]
 |===
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 10.1

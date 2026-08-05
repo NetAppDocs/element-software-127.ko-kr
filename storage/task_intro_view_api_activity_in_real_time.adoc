@@ -35,6 +35,7 @@ API 로그를 사용하여 특정 작업에 사용되는 API 메서드를 식별
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * link:../api/index.html["Element API를 사용하여 스토리지 관리"]

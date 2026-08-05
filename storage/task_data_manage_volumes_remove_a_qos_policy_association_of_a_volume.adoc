@@ -25,6 +25,7 @@ summary: 사용자 지정 QoS 설정을 선택하여 볼륨에서 QoS 정책 연
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:task_data_manage_volumes_deleting_a_qos_policy.adoc[QoS 정책을 삭제합니다]

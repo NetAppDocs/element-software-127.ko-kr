@@ -32,6 +32,7 @@ IMPORTANT: SolidFire 스토리지 시스템은 데이터를 마이그레이션�
 
 
 
+[[for-more-information]]
 == 를 참조하십시오
 
 * xref:task_troubleshoot_remove_failed_drives.adoc[클러스터에서 장애가 발생한 드라이브를 제거합니다]

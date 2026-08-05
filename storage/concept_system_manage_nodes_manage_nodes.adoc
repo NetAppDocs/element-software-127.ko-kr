@@ -17,6 +17,7 @@ summary: 클러스터 탭의 노드 페이지에서 SolidFire 스토리지 및 �
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:task_system_manage_nodes_adding_a_node_to_a_cluster.adoc[클러스터에 노드를 추가합니다]

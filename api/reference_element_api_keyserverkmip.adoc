@@ -15,6 +15,7 @@ keyServerKmip 객체는 KMIP(Key Management Interoperability Protocol) 키 서�
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.

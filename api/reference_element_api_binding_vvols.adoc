@@ -15,6 +15,7 @@ summary: 바인딩 개체에는 가상 볼륨의 바인딩에 대한 정보가 �
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -87,6 +88,7 @@ UUID입니다
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_element_api_listvirtualvolumebindings.adoc[ListVirtualVolumeBindings]

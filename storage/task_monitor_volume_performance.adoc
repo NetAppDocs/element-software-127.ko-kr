@@ -31,6 +31,7 @@ summary: 클러스터의 모든 볼륨에 대한 자세한 성능 정보를 볼 
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_monitor_volume_performance_details.adoc[볼륨 성능 세부 정보입니다]

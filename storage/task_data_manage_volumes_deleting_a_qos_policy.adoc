@@ -24,6 +24,7 @@ NOTE: 대신 QoS 정책에서 볼륨을 연결 해제하려는 경우 해당 볼
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:task_data_manage_volumes_remove_a_qos_policy_association_of_a_volume.adoc[볼륨의 QoS 정책 연결을 제거합니다]

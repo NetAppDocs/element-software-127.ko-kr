@@ -15,6 +15,7 @@ summary: 'GetSnmpInfo 메서드를 사용하여 현재 단순 네트워크 관�
 
 
 
+[[parameters]]
 == 매개 변수
 
 
@@ -24,6 +25,7 @@ NOTE: GetSnmpInfo 는 Element 버전 8.0 이후 버전에서 사용되지 않습
 
 
 
+[[return-values]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -77,6 +79,7 @@ xref:reference_element_api_usmuser.adoc[usmUser(사용자)]
 |===
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -91,6 +94,7 @@ xref:reference_element_api_usmuser.adoc[usmUser(사용자)]
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -114,12 +118,14 @@ xref:reference_element_api_usmuser.adoc[usmUser(사용자)]
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_element_api_getsnmpstate.adoc[GetSnmpState 를 선택합니다]

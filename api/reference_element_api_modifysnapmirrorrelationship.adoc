@@ -15,6 +15,7 @@ summary: ModifySnapMirrorRelationship 을 사용하여 예약된 스냅샷이 �
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -91,6 +92,7 @@ Element 스토리지 클러스터와 통신하는 원격 ONTAP 스토리지 시�
 |===
 
 
+[[return-value]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -111,6 +113,7 @@ xref:reference_element_api_snapmirrorrelationship.adoc[snapMirrorRelationship]
 |===
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 10.1

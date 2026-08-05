@@ -284,7 +284,7 @@ LDAP 서버
  a| 
 443
  a| 
-Element 스토리지 펌웨어 업그레이드
+Element 스토리지 업그레이드
 
 
 
@@ -546,6 +546,7 @@ vCenter 플러그인 등록. 등록이 완료되면 포트를 닫을 수 있습�
 |===
 
 
+[[for-more-information]]
 == 를 참조하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

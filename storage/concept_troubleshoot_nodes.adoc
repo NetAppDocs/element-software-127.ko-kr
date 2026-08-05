@@ -37,6 +37,7 @@ summary: 유지보수 또는 교체를 위해 클러스터에서 노드를 제�
 
 
 
+[[for-more-information]]
 == 를 참조하십시오
 
 https://library.netapp.com/ecm/ecm_download_file/ECMLP2844772["장애가 발생한 SolidFire 섀시 교체"]

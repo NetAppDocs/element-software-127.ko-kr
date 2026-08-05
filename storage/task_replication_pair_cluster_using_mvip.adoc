@@ -29,6 +29,7 @@ Authentication Required * (인증 필요 *) 창에서 원격 클러스터의 클
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:task_replication_pair_cluster_using_pairing_key.adoc[페어링 키를 사용하여 클러스터를 페어링합니다]

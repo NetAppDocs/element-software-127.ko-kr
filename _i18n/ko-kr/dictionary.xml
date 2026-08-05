@@ -2807,7 +2807,6 @@
   <block id="954e95e0241c7b3a74f9c6a194795355" category="admonition">저장 시 암호화 상태 및/또는 클러스터에서 유휴 시 소프트웨어 암호화의 현재 상태를 보려면 를 <block ref="51ab6f075e7b9b2d3276f61c0b11b186" category="inline-link-macro-rx"></block>사용합니다. 를 사용할 수<block ref="2132cae62c1d77dfa3dd7c3447c77cf5" prefix=" " category="inline-code"></block> <block ref="e5fb14b37e1fdc8a835f7ed4e33c1c63" category="inline-link-macro-rx"></block>있습니다.</block>
   <block id="f706c2c9f764a1928af56503f593ce7c" category="inline-link-macro">새 클러스터를 생성합니다</block>
   <block id="03c723d3c658548008f592aa302e8409" category="admonition">이 방법을 사용하여 유휴 소프트웨어 암호화를 해제할 수 없습니다. 유휴 시 소프트웨어 암호화를 비활성화하려면 <block ref="dd0348ec8bd8a2d5cdfad96177d0413b" category="inline-link-macro-rx"></block>유휴 시 소프트웨어 암호화를 비활성화해야 합니다.</block>
-  <block id="ed098de7c85d42c63667264da460dda3" category="list-text"><block ref="ed098de7c85d42c63667264da460dda3" category="inline-link-macro-rx"></block></block>
   <block id="41f5226364942217920c4da7dac4fdef" category="summary">DisableIdpAuthentication 메서드를 사용하여 클러스터에 대한 타사 IdP를 사용한 인증 지원을 해제할 수 있습니다. 비활성화되면 타사 IdP에 의해 인증된 사용자가 더 이상 클러스터에 액세스할 수 없으며 활성화된 인증된 모든 세션이 무효화되거나 연결이 해제됩니다. LDAP 및 클러스터 관리자는 지원되는 UI를 통해 클러스터에 액세스할 수 있습니다.</block>
   <block id="f7782cee0150831210cb8b1d663487e5" category="paragraph">이 방법을 사용하여 클러스터에 대해 타사 IdP를 사용하여 인증에 대한 지원을 해제할 수<block ref="19212cd9e0ef02383305a27bb4236251" prefix=" " category="inline-code"></block> 있습니다. 비활성화되면 타사 IdP에 의해 인증된 사용자가 더 이상 클러스터에 액세스할 수 없으며 활성화된 인증된 모든 세션이 무효화되거나 연결이 해제됩니다. LDAP 및 클러스터 관리자는 지원되는 UI를 통해 클러스터에 액세스할 수 있습니다.</block>
   <block id="bfd29fa5d21f9a9583846d6e7975aa03" category="summary">DisableLdapAuthentication 메서드를 사용하여 LDAP 인증을 사용하지 않도록 설정하고 모든 LDAP 구성 설정을 제거할 수 있습니다. 이 방법은 사용자 또는 그룹에 대해 구성된 클러스터 관리자 계정을 제거하지 않습니다. LDAP 인증을 사용하지 않도록 설정한 후에는 LDAP 인증을 사용하도록 구성된 클러스터 관리자가 더 이상 클러스터에 액세스할 수 없습니다.</block>
@@ -6146,7 +6145,6 @@
   <block id="feaf808951dafefbf9943700efdb4315" category="inline-link">이전 버전용 SolidFire 및 Element 소프트웨어 설명서 센터</block>
   <block id="049adc1802f0210729234e1fe80d95e6" category="list-text"><block ref="049adc1802f0210729234e1fe80d95e6" category="inline-link-rx"></block></block>
   <block id="c93817bbfc3fab71f5f7ca740a11c847" category="inline-link">NetApp HCI 리소스 페이지를 참조하십시오</block>
-  <block id="bc218e71c18c2f809dffb10d3bc2a6e8" category="list-text"><block ref="bc218e71c18c2f809dffb10d3bc2a6e8" category="inline-link-rx"></block></block>
   <block id="b1eb510dd705c0d83386b5f196686d5a" category="inline-link-macro">SolidFire 스토리지 노드에 대해 지원되는 스토리지 펌웨어 버전입니다</block>
   <block id="2b1ef5ee19eb343f5728f051c35efde4" category="list-text"><block ref="2b1ef5ee19eb343f5728f051c35efde4" category="inline-link-macro-rx"></block></block>
   <block id="a34166d7b2a72e36c4faae9587f3fe85" category="summary">시스템의 스토리지 리소스를 관리하고 액세스할 수 있도록 하려면 시스템 리소스에 대한 계정을 설정해야 합니다.</block>
@@ -8027,7 +8025,6 @@
   <block id="5c6c4538d95e26d538800e50027bee98" category="list-text">NTP 구성 파일을<block ref="da6e8c31c4b01f79120fb363f8545fb0" prefix=" " category="inline-code"></block>편집합니다.</block>
   <block id="89d9f3d393bbf8730274fc4a10310a89" category="list-text">각 서버 앞에<block ref="35d864944e92fbca987e3924eee767fe" prefix="(" category="inline-code"></block> 를 추가하여 기본 서버에 대한 주석 처리)<block ref="01abfc750a0c942167651c40d088531d" prefix=" " category="inline-code"></block>.</block>
   <block id="b74df8ed66dab15b4d425c5788286114" category="inline-link-macro">나중에</block>
-  <block id="148f57c4f729acea3c3d95b35553a056" category="list-text">추가할 각 기본 시간 서버에 대해 새 줄을 추가합니다. 기본 시간 서버는 에서 사용할 스토리지 클러스터에서 사용되는 NTP 서버와 같아야 <block ref="1d132a4516f2aafec8e6c256f33f26a5" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="79a26a29d17e6425a3d5b1deaf51ab27" category="list-text">완료되면 구성 파일을 저장합니다.</block>
   <block id="47b45d19326795031f64b4a16a828d92" category="list-text">새로 추가된 서버와 NTP 동기화를 강제로 수행합니다.</block>
   <block id="618bc09f6dd3ac7774f4a78b0820ef99" category="list-text">NTPD를 다시 시작합니다.</block>
@@ -8037,8 +8034,6 @@
   <block id="28655cad1f55952f073e7a99ee4770e7" category="list-text">서비스의 현재 상태를 표시하고 확인합니다.</block>
   <block id="5713fd020209c4c609f636c33df03095" category="list-text">vSphere에서<block ref="31aa78e37f0aeb3e8c9c5025431be8f0" prefix=" " category="inline-code"></block> VM 옵션에서 확인란이 선택 취소되어 있는지 확인합니다.</block>
   <block id="29c3f66306d4b9c80ad86deebb2fabcf" category="admonition">나중에 VM을 변경할 경우 이 옵션을 사용하지 마십시오.</block>
-  <block id="2d80cb22364fea2daaca797ae1d938cb" category="inline-link-macro">설정 명령</block>
-  <block id="a482c646f7f8199c69090c0d13cac33b" category="admonition">시간 동기화 구성을 완료한 후에는 NTP를 편집하지 마십시오. 관리 노드에서 를 실행할 때 NTP에 영향을 주기 때문입니다.<block ref="418ec8b5cff4068b256dfd7e9fc5ded7" category="inline-link-macro-rx"></block></block>
   <block id="ef246c91c687e7d720eb49c5e2a4cd47" category="section-title">4단계: 관리 노드 설정</block>
   <block id="9f150d20e38589485a1bb878b18c51e2" category="paragraph">명령을 사용하여 관리 노드를<block ref="73028873f2b0a018096b6a3d871634b5" prefix=" " category="inline-code"></block> 구성합니다.</block>
   <block id="5a808c62f4f9557c4df556d6a230ba7c" category="list-text">관리 노드 setup 명령을 구성하고 실행합니다.</block>
@@ -8047,7 +8042,6 @@
   <block id="fea104dd45bc0e75d821ddd5af2b02d0" category="admonition">명령 이름의 약식 형식은 괄호( )로 되어 있으며 전체 이름으로 대체할 수 있습니다.</block>
   <block id="3f124867257c579e7ba689baed3d4f45" category="list-text">* - -mnode_admin_user(-MU) [username] *: 관리 노드 관리자 계정의 사용자 이름입니다. 관리 노드에 로그인하는 데 사용한 사용자 계정의 사용자 이름일 수 있습니다.</block>
   <block id="4c7c8af8d2f636be58c2cffb73df599e" category="inline-link-macro">NTP 서버 구성</block>
-  <block id="26857b6da47c6d418e7795fa65480fb4" category="list-text">* -- storage_mvip(-SM) [MVIP 주소] *: Element 소프트웨어를 실행하는 스토리지 클러스터의 관리 가상 IP 주소(MVIP)입니다. 에서 사용한 것과 동일한 스토리지 클러스터를 사용하여 관리 노드를 <block ref="5d58d27cc80ea9072f2b9ee8ac714542" category="inline-link-macro-rx"></block>구성합니다.</block>
   <block id="4e1df484ad6625a5245817997c822b47" category="list-text">* - -storage_username(-su) [username] *: 매개 변수로 지정한 클러스터의 스토리지 클러스터 관리자 사용자<block ref="391c26f574aa116627e9ffa00caca891" prefix=" " category="inline-code"></block> 이름입니다.</block>
   <block id="d71eed1c64f0531e1c1642b076495af1" category="list-text">* -- telemetry_active(-t) [true] *: Active IQ의 분석을 위해 데이터를 수집할 수 있도록 하는 true 값을 유지합니다.</block>
   <block id="e4d37c44acea4cf6b1f090b66eb5cdb4" category="list-text">(선택 사항): 명령에 Active IQ 끝점 매개 변수를 추가합니다.</block>
@@ -8352,7 +8346,6 @@
   <block id="177512b9add0b40c38dad61838bf7d79" category="section-title">자산 관리</block>
   <block id="e578d1edd1f3c874d49e1c9e76becbbc" category="list-text"><block ref="e578d1edd1f3c874d49e1c9e76becbbc" category="inline-link-macro-rx"></block></block>
   <block id="6740b5cf3dc8479800bac9edc86cd31a" category="inline-link-macro">REST API를 사용하여 Element 시스템 로그를 수집합니다</block>
-  <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
   <block id="c9676e9b030c94e7e828a060b343f3db" category="list-text"><block ref="c9676e9b030c94e7e828a060b343f3db" category="inline-link-macro-rx"></block></block>
   <block id="b8ce529cfc2b9255a783e211ddb57996" category="list-text"><block ref="b8ce529cfc2b9255a783e211ddb57996" category="inline-link-macro-rx"></block></block>
   <block id="9cce958dcc64c232fd2c1c35b2dadde7" category="list-text"><block ref="9cce958dcc64c232fd2c1c35b2dadde7" category="inline-link-macro-rx"></block></block>
@@ -8483,7 +8476,6 @@
   <block id="1c45fd215e6dc295350e4f4f5e2e7e41" category="list-text"><block ref="1c45fd215e6dc295350e4f4f5e2e7e41" category="inline-xref-macro-rx"></block></block>
   <block id="a8d3424ca67e2754569ae54982c009df" category="list-text"><block ref="a8d3424ca67e2754569ae54982c009df" category="inline-xref-macro-rx"></block></block>
   <block id="a2afe432d12965caf22f4ff7eb1b173e" category="inline-xref-macro">관리 노드를 설정합니다</block>
-  <block id="f17bdc3100242be6aa20374cb07b1e01" category="list-text"><block ref="f17bdc3100242be6aa20374cb07b1e01" category="inline-xref-macro-rx"></block></block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="inline-xref-macro">다음 단계</block>
   <block id="6b758c6baa8d819395041efcb30c549d" category="list-text"><block ref="6b758c6baa8d819395041efcb30c549d" category="inline-xref-macro-rx"></block></block>
   <block id="0263150036c1e3cfabff6bedf47d102e" category="summary">기본 클러스터 노드의 관리 가상 IP\(MVIP\) 주소를 사용하여 Element UI에 액세스할 수 있습니다.</block>
@@ -9820,7 +9812,6 @@
   <block id="2f00805e044ca70467775f06c1872f89" category="paragraph">LDAP 서버</block>
   <block id="5483ab43104d3514dfdd7917f5a51b09" category="paragraph">389 TCP/UDP</block>
   <block id="19a0425f816e3267d5a9f5ee03f4fc4f" category="paragraph">(선택 사항) LDAP 조회</block>
-  <block id="6ca93b96b4cd5e33a779ecc83fde0268" category="paragraph">Element 스토리지 펌웨어 업그레이드</block>
   <block id="5ee0194e49d16c87d081efc156fb0d74" category="paragraph">원격 스토리지 클러스터 MVIP</block>
   <block id="75a4d5a956df2844befb13a89867e179" category="paragraph">원격 복제 클러스터 페어링 통신</block>
   <block id="e902ca26db3b32a7d466ef307db87d60" category="paragraph">원격 스토리지 노드 MIP</block>
@@ -10455,7 +10446,6 @@
   <block id="23fd7202fd22f55991e760ad0c321e8c" category="list-text">클러스터의 각 노드에 대해 프로토콜 엔드포인트가 생성되었는지 확인합니다.</block>
   <block id="856c3e7758eb11b79c64f0354ae8b417" category="admonition">vSphere에 추가 구성 작업이 필요합니다. VMware vSphere Virtual Volumes for SolidFire Storage 구성 가이드 _ 를 참조하여 vCenter에 VASA Provider를 등록하고, VVOL 데이터 저장소를 생성 및 관리하고, 정책에 따라 스토리지를 관리하십시오.</block>
   <block id="ef9f3ff37cf3150278a11138bf61416f" category="inline-link">SolidFire 스토리지용 VMware vSphere 가상 볼륨 구성 가이드 를 참조하십시오</block>
-  <block id="3d08f19c985682eb2a632e36184cedd2" category="paragraph"><block ref="3d08f19c985682eb2a632e36184cedd2" category="inline-link-rx"></block></block>
   <block id="a25585714577ecf53e74bf6ba927939b" category="summary">Element UI에서 클러스터의 모든 활성 가상 볼륨에 대한 가상 볼륨 정보를 검토할 수 있습니다. 또한 입력, 출력, 처리량, 지연 시간, 지연 시간 등 각 가상 볼륨의 성능 활동을 대기열 길이 및 볼륨 정보.</block>
   <block id="bb0b3ec1fbf17c782efc2b196ad33dd2" category="list-text">클러스터의 Element UI에서 VVOL 기능을 활성화해야 합니다.</block>
   <block id="bb4ae57cfc1de5cb77443f3b073ffc7f" category="list-text">연결된 저장소 컨테이너를 만들어야 합니다.</block>
@@ -11389,9 +11379,7 @@
   <block id="248c4c4df12448050266854cd21cd105" category="paragraph"><block ref="248c4c4df12448050266854cd21cd105" category="inline-link-rx"></block></block>
   <block id="02917d00c6e974040b113eec406f933d" category="paragraph">NetApp Element 소프트웨어를 실행하는 시스템에서는 SnapMirror 기능을 지원하여 NetApp ONTAP 시스템에서 스냅샷 복사본을 복사 및 복원할 수 있습니다. 이 기술을 사용하는 가장 큰 이유는 NetApp HCI에서 ONTAP로 재해 복구 때문입니다. 엔드포인트에는 ONTAP, ONTAP Select 및 Cloud Volumes ONTAP가 포함됩니다. TR-4641 NetApp HCI 데이터 보호 를 참조하십시오.</block>
   <block id="37a9cf4fd8039696452f63fb22f06182" category="inline-link">NetApp 기술 보고서 4641: NetApp HCI 데이터 보호</block>
-  <block id="b456d131470ee117b6ff900f949b80c5" category="paragraph"><block ref="b456d131470ee117b6ff900f949b80c5" category="inline-link-rx"></block></block>
   <block id="0ae5c767cabcaa90f5848cabc66f8aa9" category="inline-link">NetApp HCI, ONTAP 및 통합 인프라를 통해 데이터 패브릭 구축</block>
-  <block id="1791fd435a83f3ee701165e29bb05b2f" category="list-text"><block ref="1791fd435a83f3ee701165e29bb05b2f" category="inline-link-rx"></block></block>
   <block id="15fdfbff97a006d7f8dd45be7301f5f3" category="list-text"><block ref="15fdfbff97a006d7f8dd45be7301f5f3" category="inline-link-macro-rx"></block></block>
   <block id="8cb89b387c0217f2060ca414b41c63b2" category="summary">SolidFire 클러스터를 사용하면 저장된 소프트웨어 또는 하드웨어 기반 암호화를 사용하여 클러스터에 저장된 모든 데이터를 암호화할 수 있습니다.</block>
   <block id="07134dd620fa410023548b639cca1e69" category="doc">클러스터의 유휴 데이터 암호화를 설정 및 해제합니다</block>
@@ -12302,4 +12290,19 @@
   <block id="055c37e82a2e8b5a5c2d073fe46d98bb" category="list-text"><block ref="055c37e82a2e8b5a5c2d073fe46d98bb" category="inline-link-macro-rx"></block></block>
   <block id="c31ff914893a6941b1e7621565be0d0c" category="list-text"><block ref="c31ff914893a6941b1e7621565be0d0c" category="inline-link-macro-rx"></block></block>
   <block id="fe3c28c386d2be6c3cbda4b2feb01c29" category="list-text"><block ref="e8348e5b207b91893f9322900bc614aa" category="inline-link-rx"></block>.</block>
+  <block id="cedd3b982f345250c95c539d68542a1c" category="admonition">Element UI에서는 사용할 수 없는 액세스 유형이 API를 통해 제공됩니다.</block>
+  <block id="66ae9524f9c214ce3d4ddc510dc6384a" category="inline-link-macro">Element UI에서 사용 가능한 액세스 유형에 대해 알아보십시오.</block>
+  <block id="e3ae42684db77c59ef80c04aae526de5" category="paragraph"><block ref="e3ae42684db77c59ef80c04aae526de5" category="inline-link-macro-rx"></block></block>
+  <block id="c884c7877fc5d6cf0d734c5cb19d24ad" category="list-text"><block ref="c884c7877fc5d6cf0d734c5cb19d24ad" category="inline-link-rx"></block></block>
+  <block id="b2670dc806bd6104f3f14ade84d2dee2" category="list-text">기본 시간 서버를 추가하려면 각 서버마다 새 줄을 추가하십시오. 기본 시간 서버는 <block ref="7ae058b40dffa4b76fb639a1f356f82d" category="inline-xref-macro-rx"></block>에서 사용할 스토리지 클러스터에서 사용하는 NTP 서버와 동일해야 합니다.</block>
+  <block id="50ea53794e654f327db1fc603693d522" category="list-text">*--storage_mvip (-sm) [MVIP 주소]*: Element 소프트웨어가 실행되는 스토리지 클러스터의 관리 가상 IP 주소(MVIP)입니다. <block ref="27a45bb138de34c76f63ba91c24ab011" category="inline-link-macro-rx"></block> 중에 사용한 것과 동일한 스토리지 클러스터로 관리 노드를 구성하십시오.</block>
+  <block id="a3c8c321729d4358025f5afa4118d23c" category="list-text">[[step_6_recover_mnode_redeploy]]</block>
+  <block id="8c7d040a87c37f1f3051f72abbfbcbc5" category="list-text"><block ref="8c7d040a87c37f1f3051f72abbfbcbc5" category="inline-link-macro-rx"></block></block>
+  <block id="b254c421d245be4ca380ce1a75b8ed59" category="list-text"><block ref="b254c421d245be4ca380ce1a75b8ed59" category="inline-xref-macro-rx"></block></block>
+  <block id="f72c81a1158d9efb9bad238e3c497a6c" category="inline-link-macro">Element API에서 사용할 수 있는 액세스 유형에 대해 알아보십시오.</block>
+  <block id="c858f3d30df8c552799df529153c0e44" category="list-text"><block ref="c858f3d30df8c552799df529153c0e44" category="inline-link-macro-rx"></block></block>
+  <block id="bd000e3a7a010d55765a9684adc1c25f" category="paragraph">Element 스토리지 업그레이드</block>
+  <block id="161b4ed96d634114cd790ffb7038cc24" category="paragraph"><block ref="161b4ed96d634114cd790ffb7038cc24" category="inline-link-rx"></block></block>
+  <block id="c28c56f7a7ce8d5595899ccc3950cb6d" category="paragraph"><block ref="c28c56f7a7ce8d5595899ccc3950cb6d" category="inline-link-rx"></block></block>
+  <block id="145012f945e6ea9359e0b746c1a4925a" category="list-text"><block ref="145012f945e6ea9359e0b746c1a4925a" category="inline-link-rx"></block></block>
 </blocks>

@@ -26,18 +26,21 @@ TIP: 지침의 시각적 표현은 를 link:../media/hseries_isi.pdf["포스터"
 
 
 
+[[workflow-diagrams]]
 == 워크플로 다이어그램
 
 이 워크플로우 다이어그램은 설치 단계에 대한 개괄적인 개요를 제공합니다. H 시리즈 모델에 따라 단계가 약간 다릅니다.
 
 
 
+[[h410s]]
 === H410S를 참조하십시오
 
 image::../media/h410s_isi_workflow.png[H410S 설치 워크플로우]
 
 
 
+[[h610s]]
 === H610S를 참조하십시오
 
 
@@ -47,6 +50,7 @@ image::../media/h610s_isi_workflow.png[H610S 설치 워크플로우]
 
 
 
+[[prepare-for-installation]]
 == 설치 준비
 
 설치 준비 과정에서 제공된 하드웨어의 인벤토리를 조사하고 누락된 항목이 있으면 NetApp 지원에 문의하십시오.
@@ -80,6 +84,7 @@ CAUTION: 하드웨어를 설치하는 동안, 모든 포장재를 제거하고 �
 
 
 
+[[install-the-rails]]
 == 레일을 설치합니다
 
 제공된 하드웨어 주문에는 슬라이드 레일 세트가 포함되어 있습니다. 레일 설치를 완료하려면 드라이버가 필요합니다. 설치 단계는 각 노드 모델에 따라 약간 다릅니다.
@@ -93,6 +98,7 @@ TIP: 장비가 넘어지지 않도록 랙 하단에서 상단까지 하드웨어
 
 
 
+[[h410s]]
 === H410S를 참조하십시오
 
 H410S 노드는 2개의 어댑터 세트와 함께 제공되는 2U, 4노드 H 시리즈 섀시에 설치됩니다. 둥근 구멍이 있는 랙에 섀시를 설치하려면 둥근 구멍이 있는 랙에 적합한 어댑터를 사용하십시오. H410S 노드의 레일은 깊이 29인치에서 33.5인치 사이의 랙에 맞습니다. 레일이 완전히 수축되면 길이는 28인치이고 레일의 전면과 후면은 하나의 나사에 의해 함께 고정됩니다.
@@ -115,6 +121,7 @@ image::../media/h410s_rail.gif[2U 레일 설치]
 
 
 
+[[h610s]]
 === H610S를 참조하십시오
 
 다음은 H610S 스토리지 노드의 레일 설치를 위한 그림입니다.
@@ -126,6 +133,7 @@ TIP: H610S에는 왼쪽과 오른쪽 레일이 있습니다. H610S 나비나사�
 
 
 
+[[install-and-cable-the-nodes]]
 == 노드를 설치하고 케이블을 연결합니다
 
 H410S 스토리지 노드를 2U 4노드 섀시에 설치합니다. H610S의 경우 섀시/노드를 랙의 레일에 직접 설치합니다.
@@ -139,6 +147,7 @@ CAUTION: 모든 포장재를 제거하고 장치에서 포장합니다. 이렇�
 
 
 
+[[h410s]]
 === H410S를 참조하십시오
 
 .단계
@@ -181,6 +190,7 @@ image::../media/hci_poweron_isg.gif[이 그림은 2U에 있는 노드의 전원 
 
 
 
+[[h610s]]
 === H610S를 참조하십시오
 
 .단계
@@ -219,6 +229,7 @@ image::../media/h600s_isi_nodefront.png[이 그림은 전원 버튼이 강조 �
 
 
 
+[[configure-the-nodes]]
 == 노드를 구성합니다
 
 하드웨어를 랙에 장착하고 케이블을 연결한 후에는 새 스토리지 리소스를 구성할 준비가 된 것입니다.
@@ -244,6 +255,7 @@ TIP: 을 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastru
 
 
 
+[[create-a-cluster]]
 == 클러스터를 생성합니다
 
 설치 환경에 스토리지 노드를 추가하고 새 스토리지 리소스를 구성한 후에는 새 스토리지 클러스터를 생성할 수 있습니다
@@ -255,6 +267,7 @@ TIP: 을 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastru
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

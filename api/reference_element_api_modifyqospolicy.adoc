@@ -15,6 +15,7 @@ summary: ModifyQoSPolicy 메서드를 사용하여 시스템의 기존 QoS 정�
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -65,6 +66,7 @@ QoS 개체
 |===
 
 
+[[return-values]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -85,6 +87,7 @@ xref:reference_element_api_qospolicy.adoc[QoSPolicy를 참조하십시오]
 |===
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -106,6 +109,7 @@ xref:reference_element_api_qospolicy.adoc[QoSPolicy를 참조하십시오]
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -144,6 +148,7 @@ xref:reference_element_api_qospolicy.adoc[QoSPolicy를 참조하십시오]
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 10.0

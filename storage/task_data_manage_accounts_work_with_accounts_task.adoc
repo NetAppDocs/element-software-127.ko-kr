@@ -17,6 +17,7 @@ SolidFire 스토리지 시스템에서 테넌트는 계정을 사용하여 클�
 
 
 
+[[chap-algorithms]]
 == CHAP 알고리즘입니다
 
 Element 12.7부터 보안 FIPS 호환 CHAP 알고리즘 SHA1, SHA-256 및 SHA3-256이 지원됩니다. Element 12.7을 사용하는 경우 호스트 iSCSI 이니시에이터가 Element iSCSI 타겟과 함께 iSCSI 세션을 생성하는 경우 사용할 CHAP 알고리즘 목록을 요청합니다. Element iSCSI 대상은 호스트 iSCSI 초기자가 요청한 목록에서 지원하는 첫 번째 알고리즘을 선택합니다. Element iSCSI 타겟이 가장 안전한 알고리즘을 선택하는지 확인하려면 호스트 iSCSI 초기자가 가장 안전한(예: SHA3-256)에서 주문한 알고리즘 목록을 가장 안전한 것으로 보내도록 구성해야 합니다. SHA1 또는 MD5. 호스트 iSCSI 초기자가 SHA 알고리즘을 요청하지 않으면 Element iSCSI 대상이 MD5를 선택하며, 호스트의 제안된 알고리즘 목록에 MD5가 포함되어 있다고 가정합니다. 보안 알고리즘을 지원하려면 호스트 iSCSI 이니시에이터 구성을 업데이트해야 할 수 있습니다.
@@ -29,6 +30,7 @@ Element 12.7 업그레이드 중에 스토리지 노드가 재부팅될 때 SHA 
 
 
 
+[[create-an-account]]
 == 계정을 만듭니다
 
 볼륨에 대한 액세스를 허용하는 계정을 생성할 수 있습니다.
@@ -53,6 +55,7 @@ NOTE: 자격 증명 필드를 비워 두면 두 암호를 자동으로 생성할
 
 
 
+[[view-account-details]]
 == 계정 세부 정보를 봅니다
 
 개별 계정의 성능 활동을 그래픽 형식으로 볼 수 있습니다.
@@ -82,6 +85,7 @@ NOTE: 자격 증명 필드를 비워 두면 두 암호를 자동으로 생성할
 
 
 
+[[edit-an-account]]
 == 계정을 편집합니다
 
 계정을 편집하여 상태를 변경하거나 CHAP 암호를 변경하거나 계정 이름을 수정할 수 있습니다.
@@ -110,6 +114,7 @@ NOTE: CHAP 설정 * 자격 증명을 변경하지 않으면 자격 증명은 그
 
 
 
+[[delete-an-account]]
 == 계정을 삭제합니다
 
 더 이상 필요하지 않은 계정은 삭제할 수 있습니다.
@@ -127,6 +132,7 @@ IMPORTANT: 관리 서비스와 연결된 영구 볼륨은 설치 또는 업그�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

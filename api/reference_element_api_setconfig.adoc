@@ -15,6 +15,7 @@ summary: SetConfig 메서드를 사용하여 노드의 네트워크 및 클러�
 
 
 
+[[parameter]]
 == 매개 변수
 
 주의:
@@ -54,6 +55,7 @@ xref:reference_element_api_network_all_interfaces.adoc[네트워크(모든 인�
 |===
 
 
+[[return-value]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -76,6 +78,7 @@ JSON 개체입니다
 |===
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -98,18 +101,21 @@ JSON 개체입니다
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메소드의 응답은 getconfig 메소드의 반환과 동일합니다. SetConfig를 사용하면 개체 표시 및 업데이트된 값에 대한 모든 필드가 표시됩니다.
 
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_element_api_setclusterconfig.adoc[SetClusterConfig]

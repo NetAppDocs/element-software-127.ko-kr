@@ -15,6 +15,7 @@ summary: RemoveClusterPair 메서드를 사용하여 두 페어링된 클러스�
 
 
 
+[[parameter]]
 == 매개 변수
 
 
@@ -40,12 +41,14 @@ NOTE: 클러스터 쌍을 제거하기 전에 먼저 RemoveVolumePair API 방법
 |===
 
 
+[[return-value]]
 == 반환 값
 
 이 메서드에는 반환 값이 없습니다.
 
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -62,6 +65,7 @@ NOTE: 클러스터 쌍을 제거하기 전에 먼저 RemoveVolumePair API 방법
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -75,6 +79,7 @@ NOTE: 클러스터 쌍을 제거하기 전에 먼저 RemoveVolumePair API 방법
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6

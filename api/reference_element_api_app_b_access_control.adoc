@@ -14,7 +14,11 @@ summary: 사용할 수 있는 Element API 메서드는 사용자가 설정한 �
 사용할 수 있는 Element API 메서드는 사용자가 설정한 액세스 유형에 따라 달라집니다.
 
 
+NOTE: Element UI에서는 사용할 수 없는 액세스 유형이 API를 통해 제공됩니다.
 
+
+
+[[accounts]]
 == 계정
 
 계정 액세스 유형에 사용할 수 있는 방법은 다음과 같습니다.
@@ -58,12 +62,14 @@ GetAccountEfficiency를 참조하십시오
 |===
 
 
+[[administrator]]
 == 관리자
 
 모든 방법은 관리자 액세스 유형에 사용할 수 있습니다.
 
 
 
+[[clusteradmin]]
 == 클러스터 관리자
 
 클러스터 관리자 액세스 유형에는 다음 방법을 사용할 수 있습니다.
@@ -461,6 +467,7 @@ GetVirtualNetwork 를 참조하십시오
 |===
 
 
+[[drives]]
 == 드라이브
 
 드라이브 액세스 유형에 사용할 수 있는 방법은 다음과 같습니다.
@@ -489,6 +496,7 @@ SecureEraseDrives
 |===
 
 
+[[nodes]]
 == 노드
 
 노드 액세스 유형에 사용할 수 있는 방법은 다음과 같습니다.
@@ -517,6 +525,7 @@ ListActiveNodes 를 선택합니다
 |===
 
 
+[[read]]
 == 읽기
 
 읽기 액세스 유형에 사용할 수 있는 방법은 다음과 같습니다.
@@ -660,6 +669,7 @@ ListBackupTargets 를 선택합니다
 |===
 
 
+[[reporting]]
 == 보고
 
 보고 액세스 유형에 사용할 수 있는 방법은 다음과 같습니다.
@@ -818,12 +828,14 @@ ListVolumeStatsByVolumeAccessGroup
 |===
 
 
+[[repositories]]
 == 리포지토리
 
 ListAllNodes 메서드는 리포지토리 액세스 유형에 사용할 수 있습니다.
 
 
 
+[[volumes]]
 == 볼륨
 
 볼륨 액세스 유형에 사용할 수 있는 방법은 다음과 같습니다.
@@ -997,6 +1009,7 @@ UpdateBulkVolumeStatus 를 선택합니다
 |===
 
 
+[[write]]
 == 쓰기
 
 쓰기 액세스 유형에는 다음 방법을 사용할 수 있습니다.
@@ -1108,3 +1121,5 @@ GetAsyncResult 를 참조하십시오
 드라이브 제거
 
 |===
+.관련 정보
+link:../storage/concept_system_manage_manage_cluster_administrator_users.html#view-cluster-admin-details["Element UI에서 사용 가능한 액세스 유형에 대해 알아보십시오."]

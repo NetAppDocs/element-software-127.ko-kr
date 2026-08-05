@@ -19,6 +19,7 @@ summary: 클러스터 전체의 유휴 암호화를 사용하거나 사용하지
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.adoc[클러스터에 대한 암호화를 사용하거나 사용하지 않도록 설정합니다]

@@ -21,6 +21,7 @@ summary: 가상 네트워크 개체를 제거할 수 있습니다. 가상 네트
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:task_system_manage_virtual_edit_a_virtual_network.adoc[가상 네트워크를 편집합니다]

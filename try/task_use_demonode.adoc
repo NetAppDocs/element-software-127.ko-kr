@@ -15,6 +15,7 @@ https://mysupport.netapp.com/site/tools/tool-eula/element-demonode/download["요
 
 
 
+[[supported-functionality]]
 == 지원되는 기능:
 
 Element Demo Node는 데모 및 개발 도구로만 사용할 수 있습니다. 데모 노드를 사용하기 전에 다음과 같은 기능 제한 사항을 숙지하십시오.
@@ -40,6 +41,7 @@ NOTE: 기타 모든 Element 소프트웨어 제한 사항이 적용됩니다. �
 
 
 
+[[vm-requirements]]
 == VM 요구 사항
 
 * 총 240GB 용량(VM의 가상 디스크 크기 및 수는 변경할 수 없습니다. 하이퍼바이저를 통해 제공되는 추가 스토리지는 게스트 OS에서 무시됩니다.)
@@ -53,6 +55,7 @@ NOTE: 기타 모든 Element 소프트웨어 제한 사항이 적용됩니다. �
 
 
 
+[[host-requirements]]
 == 호스트 요구 사항
 
 * Element Demo Node 11.7 VM용 ESXi 6.0 또는 6.5
@@ -63,12 +66,14 @@ NOTE: 기타 모든 Element 소프트웨어 제한 사항이 적용됩니다. �
 
 
 
+[[download-element-demo-node]]
 == Element 데모 노드를 다운로드합니다
 
 Element Demo Node 소프트웨어는 .ova 파일로 패키지된 VMware 파일 집합입니다.
 
 
 
+[[install-element-demo-node-on-vmware-esxi]]
 == VMware ESXi에 Element Demo Node를 설치합니다
 
 VMware ESXi에 Element Demo Node를 설치하는 작업은 다음과 같습니다.
@@ -80,12 +85,14 @@ VMware ESXi에 Element Demo Node를 설치하는 작업은 다음과 같습니�
 
 
 
+[[configure-network-interfaces]]
 === 네트워크 인터페이스를 구성합니다
 
 Element Demo Node에는 두 개의 개별 가상 머신 네트워크가 필요합니다. 하나는 스토리지 트래픽이고 다른 하나는 관리 트래픽입니다. 점보 프레임을 지원하도록 스토리지 네트워크를 구성해야 합니다.
 
 
 
+[[register-the-demo-node-on-an-esxi-server]]
 === ESXi 서버에 데모 노드를 등록합니다
 
 ESXi 서버에 Element Demo Node를 등록하려면 vSphere Client를 사용하여 데모 node.ova 파일을 배포해야 합니다.
@@ -111,6 +118,7 @@ NOTE: 데모 노드 구축을 완료하는 데 몇 분 정도 걸릴 수 있습�
 
 
 
+[[start-the-demo-node-on-an-esxi-server]]
 === ESXi 서버에서 데모 노드를 시작합니다
 
 VMware ESXi 콘솔을 통해 Element에 액세스하려면 데모 노드 VM을 시작해야 합니다.
@@ -125,12 +133,14 @@ VMware ESXi 콘솔을 통해 Element에 액세스하려면 데모 노드 VM을 �
 
 
 
+[[how-to-get-support]]
 == 지원을 받는 방법
 
 Element Demo Node는 자원 봉사자 단위로 이용할 수 있습니다. 지원을 받으려면 에 질문을 게시하십시오. https://community.netapp.com/t5/Simulator-Discussions/bd-p/simulator-discussions["Element 데모 노드 포럼"^]
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://mysupport.netapp.com/site/tools/tool-eula/element-demonode/download["Element Demo Node 다운로드 페이지(로그인 필요)"^]

@@ -15,6 +15,7 @@ summary: 'CreateIpdConfiguration 메서드를 사용하여 클러스터에 대�
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -50,6 +51,7 @@ SAML 2.0 SSO(Single Sign-On)에 대한 IDP 공급자를 식별하는 데 사용�
 |===
 
 
+[[return-values]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -70,6 +72,7 @@ link:reference_element_api_idpconfiginfo.html["idpConfigInfo"]
 |===
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -93,6 +96,7 @@ link:reference_element_api_idpconfiginfo.html["idpConfigInfo"]
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -122,6 +126,7 @@ link:reference_element_api_idpconfiginfo.html["idpConfigInfo"]
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 12.0

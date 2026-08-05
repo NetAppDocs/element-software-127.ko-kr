@@ -17,6 +17,7 @@ summary: AddClusterAdmin 메서드를 사용하여 새 클러스터 관리자 �
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -91,6 +92,7 @@ JSON 개체입니다
 |===
 
 
+[[return-value]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -111,6 +113,7 @@ JSON 개체입니다
 |===
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -131,6 +134,7 @@ JSON 개체입니다
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -146,12 +150,14 @@ JSON 개체입니다
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_app_b_access_control.adoc[액세스 제어]

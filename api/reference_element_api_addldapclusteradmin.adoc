@@ -15,6 +15,7 @@ summary: AddLdapClusterAdmin을 사용하여 새 LDAP 클러스터 관리자를 
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 방법을 사용하여 Active Directory ® 에 정의된 LDAP 그룹을 추가할 수도 있습니다. 그룹에 지정된 액세스 수준은 LDAP 그룹의 개별 사용자에게 전달됩니다.
@@ -78,12 +79,14 @@ JSON 개체입니다
 |===
 
 
+[[return-values]]
 == 반환 값
 
 이 메서드에는 반환 값이 없습니다.
 
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -101,6 +104,7 @@ JSON 개체입니다
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -114,12 +118,14 @@ JSON 개체입니다
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_app_b_access_control.adoc[액세스 제어]

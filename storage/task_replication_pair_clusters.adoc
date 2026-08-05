@@ -28,6 +28,7 @@ NOTE: 클러스터 페어링은 관리 네트워크의 노드 간에 완벽하�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_prereq_network_port_requirements.adoc[네트워크 포트 요구 사항]

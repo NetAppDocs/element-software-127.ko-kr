@@ -45,6 +45,7 @@ xref:task_data_protection_back_up_and_restore_volumes.adoc[SolidFire, S3 또는 
 
 
 
+[[for-more-information]]
 == 를 참조하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

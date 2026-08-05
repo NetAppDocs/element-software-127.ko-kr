@@ -28,6 +28,7 @@ NOTE: 기본적으로 커뮤니티 문자열은 public이며 네트워크는 loc
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:task_system_manage_snmp_configure_snmp_traps.adoc[SNMP 트랩을 구성합니다]

@@ -15,6 +15,7 @@ Element 웹 UI에서는 `GetOntapVersionInfo` SnapMirror 관계에서 ONTAP 클�
 
 
 
+[[parameter]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -37,6 +38,7 @@ snapMirrorEndpointID입니다
 |===
 
 
+[[return-value]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -55,6 +57,7 @@ xref:reference_element_api_ontapversioninfo.adoc[ontapVersionInfo] 선정되었�
 |===
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 10.1

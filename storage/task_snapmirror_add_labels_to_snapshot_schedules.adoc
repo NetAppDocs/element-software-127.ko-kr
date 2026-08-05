@@ -50,6 +50,7 @@ SnapMirror 정책이 적용되도록 스냅샷 일정에 SnapMirror 레이블을
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:task_data_protection_create_a_snapshot_schedule.adoc[스냅샷 스케줄을 생성합니다]

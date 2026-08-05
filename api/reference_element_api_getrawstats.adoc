@@ -23,6 +23,7 @@ NetApp 엔지니어링은 API 메서드를 사용하여 `GetRawStats` 새로운 
 
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6

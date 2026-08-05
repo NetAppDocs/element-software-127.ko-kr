@@ -15,6 +15,7 @@ snapMirrorPolicy 개체에는 ONTAP 시스템에 저장된 SnapMirror 정책에 
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.

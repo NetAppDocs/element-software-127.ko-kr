@@ -15,6 +15,7 @@ summary: 기본 측의 문제가 완화되면 원본 소스 볼륨을 재동기�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:task_snapmirror_perform_failback_when_source_volume_exists.adoc[소스 볼륨이 아직 있을 때 페일백을 수행합니다]

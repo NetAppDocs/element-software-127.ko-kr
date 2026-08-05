@@ -39,6 +39,7 @@ summary: NetApp Support에 문의하여 예비 단계를 완료한 후 전체 �
 ====
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_to_gracefully_shut_down_and_power_on_a_NetApp_Solidfire_HCI_storage_cluster["NetApp Solidfire/HCI 스토리지 클러스터를 올바르게 종료하고 전원을 켜는 방법"^]

@@ -28,6 +28,7 @@ NOTE: Element 버전 11.0부터는 노드의 관리 네트워크에 대해 IPv4,
 
 
 
+[[configure-a-storage-node-using-the-per-node-ui]]
 == 노드별 UI를 사용하여 스토리지 노드를 구성합니다
 
 노드별 사용자 인터페이스를 사용하여 노드를 구성할 수 있습니다.
@@ -66,6 +67,7 @@ IMPORTANT: 이 이름은 클러스터를 생성하기 전에 모든 노드의 �
 
 
 
+[[configure-a-storage-node-using-the-tui]]
 == TUI를 사용하여 스토리지 노드를 구성합니다
 
 터미널 사용자 인터페이스(TUI)를 사용하여 새 노드에 대한 초기 구성을 수행할 수 있습니다.
@@ -99,6 +101,7 @@ TIP: 메뉴를 탐색하려면 위쪽 또는 아래쪽 화살표 키를 누릅�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

@@ -15,6 +15,7 @@ SolidFire 스토리지 시스템의 클러스터 관리자 계정은 클러스�
 
 
 
+[[storage-cluster-administrator-account-types]]
 == 스토리지 클러스터 관리자 계정 유형입니다
 
 NetApp Element 소프트웨어를 실행하는 스토리지 클러스터에 존재할 수 있는 관리자 계정은 운영 클러스터 관리자 계정과 클러스터 관리자 계정 두 가지입니다.
@@ -34,6 +35,7 @@ NOTE: 노드별 UI를 통해 클러스터의 활성 노드에 액세스하려면
 
 
 
+[[view-cluster-admin-details]]
 == 클러스터 관리자의 세부 정보를 봅니다
 
 . 클러스터 전체(LDAP가 아닌) 클러스터 관리자 계정을 생성하려면 다음 작업을 수행합니다.
@@ -61,9 +63,13 @@ NOTE: 노드별 UI를 통해 클러스터의 활성 노드에 액세스하려면
 
 
 +
+[NOTE]
+====
+모든 권한은 관리자 액세스 유형에 사용할 수 있습니다.
 
-NOTE: 모든 권한은 관리자 액세스 유형에 사용할 수 있습니다.
+Element UI에서는 사용할 수 없는 액세스 유형이 API를 통해 제공됩니다.
 
+====
 +
 ** * 유형 *: 클러스터 관리자의 유형입니다. 가능한 값:
 +
@@ -81,6 +87,8 @@ NOTE: 모든 권한은 관리자 액세스 유형에 사용할 수 있습니다.
 
 
 
+[[create-a-cluster-administrator-account]]
+[[create_cluster_admin_account]]
 == 클러스터 관리자 계정을 생성합니다
 
 스토리지 시스템의 특정 영역에 대한 액세스를 허용하거나 제한할 수 있는 권한이 있는 새 클러스터 관리자 계정을 생성할 수 있습니다. 클러스터 관리자 계정 권한을 설정하면 시스템은 클러스터 관리자에게 할당하지 않은 모든 권한에 대해 읽기 전용 권한을 부여합니다.
@@ -128,6 +136,7 @@ LDAP 클러스터 관리자 사용자 또는 그룹을 추가하려면 사용자
 
 
 
+[[edit-cluster-administrator-permissions]]
 == 클러스터 관리자 권한을 편집합니다
 
 보고, 노드, 드라이브, 볼륨, 계정 및 클러스터 레벨 액세스를 지원합니다. 사용 권한을 설정하면 시스템에서 해당 수준에 대한 쓰기 권한을 할당합니다. 시스템은 사용자가 선택하지 않은 수준에 대해 관리자 사용자에게 읽기 전용 액세스 권한을 부여합니다.
@@ -141,6 +150,7 @@ LDAP 클러스터 관리자 사용자 또는 그룹을 추가하려면 사용자
 
 
 
+[[change-passwords-for-cluster-administrator-accounts]]
 == 클러스터 관리자 계정의 암호를 변경합니다
 
 Element UI를 사용하여 클러스터 관리자 암호를 변경할 수 있습니다.
@@ -152,12 +162,9 @@ Element UI를 사용하여 클러스터 관리자 암호를 변경할 수 있습
 . 변경 내용 저장 * 을 클릭합니다.
 
 
-
-
-== 자세한 내용을 확인하십시오
-
+.관련 정보
+* link:../api/reference_element_api_app_b_access_control.html["Element API에서 사용할 수 있는 액세스 유형에 대해 알아보십시오."]
 * link:task_system_manage_enable_ldap_authentication.html["Element 사용자 인터페이스를 사용하여 LDAP 인증을 설정합니다"]
 * link:concept_system_manage_manage_ldap.html["LDAP를 비활성화합니다"]
-* https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
 

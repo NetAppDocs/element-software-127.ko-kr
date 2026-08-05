@@ -15,6 +15,7 @@ SolidFire 스토리지의 가상 네트워킹을 사용하면 별도의 논리 �
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:task_system_manage_virtual_add_a_virtual_network.adoc[가상 네트워크를 추가합니다]

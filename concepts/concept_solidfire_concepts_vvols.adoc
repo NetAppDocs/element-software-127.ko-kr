@@ -18,12 +18,14 @@ vSphere Virtual Volumes는 VMware의 스토리지 패러다임으로, 스토리�
 
 
 
+[[bindings]]
 == 바인딩
 
 NetApp Element 클러스터는 최적의 프로토콜 엔드포인트를 선택하고 ESXi 호스트 및 가상 볼륨을 프로토콜 끝점과 연결하는 바인딩을 생성한 다음 ESXi 호스트에 대한 바인딩을 반환합니다. 바인딩한 후 ESXi 호스트는 바인딩된 가상 볼륨에서 입출력 작업을 수행할 수 있습니다.
 
 
 
+[[protocol-endpoints]]
 == 프로토콜 엔드포인트
 
 VMware ESXi 호스트는 프로토콜 엔드포인트라고 하는 논리적 I/O 프록시를 사용하여 가상 볼륨과 통신합니다. ESXi 호스트는 I/O 작업을 수행하기 위해 가상 볼륨을 프로토콜 끝점에 바인딩합니다. 호스트의 가상 머신이 I/O 작업을 수행할 때 연결된 프로토콜 엔드포인트는 I/O를 페어링된 가상 볼륨으로 보냅니다.
@@ -34,6 +36,7 @@ iSCSI는 NetApp Element 소프트웨어에 대해 지원되는 유일한 프로�
 
 
 
+[[storage-containers]]
 == 스토리지 컨테이너
 
 스토리지 컨테이너는 NetApp Element 계정에 매핑되며 보고 및 리소스 할당에 사용되는 논리적 구문입니다. 스토리지 시스템이 가상 볼륨에 제공할 수 있는 물리적 스토리지 용량 또는 애그리게이트 스토리지 기능을 풀합니다. vSphere에서 생성된 VVOL 데이터 저장소는 개별 스토리지 컨테이너에 매핑됩니다. 단일 스토리지 컨테이너에는 기본적으로 NetApp Element 클러스터의 사용 가능한 모든 리소스가 있습니다. 멀티 테넌시에 대해 보다 세분화된 거버넌스를 필요로 하는 경우 여러 스토리지 컨테이너를 생성할 수 있습니다.
@@ -42,6 +45,7 @@ iSCSI는 NetApp Element 소프트웨어에 대해 지원되는 유일한 프로�
 
 
 
+[[vasa-provider]]
 == VASA 공급자
 
 vSphere가 NetApp Element 클러스터의 VVol 기능을 인식하도록 하려면 vSphere 관리자가 NetApp Element VASA Provider를 vCenter에 등록해야 합니다. VASA Provider는 vSphere와 Element 클러스터 간의 대역 외 제어 경로입니다. VM 생성, vSphere에서 VM 사용 가능, vSphere에 스토리지 기능 광고 등 vSphere를 대신하여 Element 클러스터에서 요청을 실행하는 것은 IT의 책임입니다.

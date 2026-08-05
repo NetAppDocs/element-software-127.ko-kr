@@ -31,6 +31,7 @@ NOTE: 보안상의 이유로 전자 메일을 통해 다른 사용자에게 페�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_element_api_startclusterpairing.adoc[StartClusterPairing을 선택합니다]

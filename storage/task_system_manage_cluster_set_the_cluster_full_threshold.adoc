@@ -24,6 +24,7 @@ summary: 아래 단계를 사용하여 시스템에서 블록 클러스터 충�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 https://kb.netapp.com/Advice_and_Troubleshooting/Flash_Storage/SF_Series/How_are_the_blockSpace_thresholds_calculated_for_Element["Element에 대해 블록 공간 임계값이 계산되는 방법"^]

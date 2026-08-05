@@ -15,6 +15,7 @@ summary: 이벤트 개체에는 API 메서드 호출 중 또는 시스템이 작
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -125,6 +126,7 @@ ISO 8601 날짜 문자열
 
 
 
+[[event-types]]
 == 이벤트 유형
 
 다음 목록에서는 eventInfoType 멤버에서 포함할 수 있는 가능한 이벤트 형식을 설명합니다.
@@ -163,6 +165,7 @@ ISO 8601 날짜 문자열
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_listevents.adoc[ListEvents 를 선택합니다]

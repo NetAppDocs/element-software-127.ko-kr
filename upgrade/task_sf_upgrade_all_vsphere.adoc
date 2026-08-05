@@ -36,6 +36,7 @@ vCenter Server 4.x용 Element 플러그인을 사용하면 VMware vCenter Server
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

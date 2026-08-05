@@ -19,6 +19,7 @@ summary: 볼륨이 복제된 후에는 소스 볼륨과 타겟 볼륨이 활성 
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_replication_volume_pairing_warnings.adoc[볼륨 페어링 경고]

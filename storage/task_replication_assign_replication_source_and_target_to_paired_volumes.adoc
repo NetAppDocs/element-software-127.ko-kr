@@ -48,6 +48,7 @@ IMPORTANT: 기존 볼륨을 복제 타겟으로 할당할 경우 해당 볼륨�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:task_replication_pair_volumes_using_a_volume_id.adoc[볼륨 ID를 사용하여 볼륨을 페어링합니다]

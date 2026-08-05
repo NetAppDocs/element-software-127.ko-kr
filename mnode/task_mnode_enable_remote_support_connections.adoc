@@ -53,6 +53,7 @@ NOTE: SSH를 해제하지 않으면 관리 노드에서 SSH가 활성화된 상�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]

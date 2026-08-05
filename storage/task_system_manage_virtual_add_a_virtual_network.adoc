@@ -48,6 +48,7 @@ IMPORTANT: 이 구성에 대해 다음 기준을 고려해야 합니다.
 
 
 
+[[view-virtual-network-details]]
 == 가상 네트워크 세부 정보를 봅니다
 
 .단계

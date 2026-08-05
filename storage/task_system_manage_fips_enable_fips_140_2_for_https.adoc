@@ -36,6 +36,7 @@ IMPORTANT: FIPS 140-2 모드를 활성화한 후에는 비활성화할 수 없�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:reference_system_manage_fips_ssl_cipher_changes.adoc[SSL 암호]

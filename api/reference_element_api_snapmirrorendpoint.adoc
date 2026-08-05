@@ -15,6 +15,7 @@ snapMirrorEndpoint 개체에는 Element 스토리지 클러스터와 통신하�
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.

@@ -19,6 +19,7 @@ SolidFire 시스템을 설정한 후 몇 가지 선택적 작업을 수행할 �
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * link:task_post_deploy_credentials.html["NetApp HCI 및 NetApp SolidFire에서 자격 증명을 변경합니다"]

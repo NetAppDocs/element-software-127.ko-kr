@@ -36,6 +36,7 @@ NOTE: 볼륨 액세스 그룹은 다음과 같은 제한 사항이 있습니다.
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * xref:task_data_manage_vol_access_group_create_a_volume_access_group.adoc[볼륨 액세스 그룹을 생성합니다]

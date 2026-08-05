@@ -15,6 +15,7 @@ summary: 광섬유 ChannelPort 개체에는 노드의 개별 포트 또는 클�
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.
@@ -136,6 +137,7 @@ HBA의 물리적 포트에 할당된 World Wide Port 이름입니다.
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 xref:reference_element_api_listnodefibrechannelportinfo.adoc[ListNodeFiberChannelPortInfo 를 참조하십시오]

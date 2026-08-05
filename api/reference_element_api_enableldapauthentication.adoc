@@ -15,6 +15,7 @@ summary: EnableLdapAuthentication 메서드를 사용하여 클러스터에 대�
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -163,12 +164,14 @@ CustomFilter 검색 유형과 함께 사용하기 위해 사용자 그룹의 DNS
 |===
 
 
+[[return-values]]
 == 반환 값
 
 이 메서드에는 반환 값이 없습니다.
 
 
 
+[[request-example]]
 == 요청 예
 
 이 메서드에 대한 요청은 다음 예제와 비슷합니다.
@@ -196,6 +199,7 @@ CustomFilter 검색 유형과 함께 사용하기 위해 사용자 그룹의 DNS
 ----
 
 
+[[response-example]]
 == 응답 예
 
 이 메서드는 다음 예제와 유사한 응답을 반환합니다.
@@ -210,6 +214,7 @@ CustomFilter 검색 유형과 함께 사용하기 위해 사용자 그룹의 DNS
 ----
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 9.6

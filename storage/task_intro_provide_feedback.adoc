@@ -23,6 +23,7 @@ UI 전체에서 액세스할 수 있는 피드백 양식을 사용하여 Element
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"]

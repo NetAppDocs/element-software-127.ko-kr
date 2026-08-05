@@ -15,6 +15,7 @@ networkInterfaceStats 객체에는 네트워크 통계, 전송 및 수신된 총
 
 
 
+[[object-members]]
 == 개체 멤버
 
 이 개체에는 다음 멤버가 포함되어 있습니다.

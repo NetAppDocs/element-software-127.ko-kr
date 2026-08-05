@@ -15,6 +15,7 @@ Element 소프트웨어는 이 버전의 메서드를 사용하여 `ModifySnapMi
 
 
 
+[[parameters]]
 == 매개 변수
 
 이 메서드에는 다음과 같은 입력 매개 변수가 있습니다.
@@ -65,6 +66,7 @@ IP 주소
 |===
 
 
+[[return-value]]
 == 반환 값
 
 이 메서드의 반환 값은 다음과 같습니다.
@@ -85,6 +87,7 @@ xref:reference_element_api_snapmirrorendpoint.adoc[snapMirrorEndpoint]
 |===
 
 
+[[new-since-version]]
 == 버전 이후 새로운 기능
 
 10.3
